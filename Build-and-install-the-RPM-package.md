@@ -4,27 +4,35 @@ Works for Fedora, OpenSUSE and Mageia.
 
         mkdir -p ~/rpmbuild/{SRPMS,SOURCES,SPECS,tmp}
 
-2. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/Webcamoid/releases):
+2. Change to the sources directory:
 
-        wget -c -O ~/rpmbuild/SOURCES/Webcamoid-5.0.0.tar.gz http://github.com/hipersayanX/Webcamoid/archive/v5.0.0.tar.gz
+        cd ~/rpmbuild/SOURCES
 
-3. Extract the sources:
+3. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/Webcamoid/releases):
+
+        wget -c -O Webcamoid-5.0.0.tar.gz http://github.com/hipersayanX/Webcamoid/archive/v5.0.0.tar.gz
+
+4. Extract the sources:
 
         tar -zxvf Webcamoid-5.0.0.tar.gz
 
-4. Change the name of the extracted folder:
+5. Change the name of the extracted folder:
 
         mv -vf Webcamoid-5.0.0 webcamoid-5.0.0
 
-5. Create the new source file:
+6. Create the new source file:
 
         tar -zcvf webcamoid-5.0.0.tar.gz webcamoid-5.0.0/
 
-6. Copy the **.spec** file to your home:
+7. Change to your home directory:
+
+        cd ~
+
+8. Copy the **.spec** file to your home:
 
         cp -vf ~/rpmbuild/SOURCES/webcamoid-5.0.0/ports/rpm/webcamoid.spec ~
 
-7. Install the **rpm-build** package:  
+9. Install the **rpm-build** package:  
     **Fedora**
 
         sudo yum install rpm-build
@@ -37,15 +45,15 @@ Works for Fedora, OpenSUSE and Mageia.
 
         sudo urpmi rpm-build
 
-8. Build the package (if it asks for build dependencies, install it and build again):
+10. Build the package (if it asks for build dependencies, install it and build again):
 
         rpmbuild -ba ~/webcamoid.spec
 
-9. Change to the packages directory:
+11. Change to the packages directory:
 
         cd ~/rpmbuild/RPMS/x86_64
 
-8. And install the package:
+12. And install the package:
     **Fedora**
 
         sudo rpm -ivh webcamoid-5.0.0-1.fc21.x86_64.rpm
