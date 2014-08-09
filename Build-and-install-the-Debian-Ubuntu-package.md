@@ -1,5 +1,7 @@
-1. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/Webcamoid/releases):  
+1. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/Webcamoid/releases):
+
         wget -c -O Webcamoid-5.0.0.tar.gz http://github.com/hipersayanX/Webcamoid/archive/v5.0.0.tar.gz
+
 2. Extract the sources:  
         tar -zxvf Webcamoid-5.0.0.tar.gz
 3. Change the name of the extracted folder:  
