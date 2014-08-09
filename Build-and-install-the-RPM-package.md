@@ -53,7 +53,7 @@ Works for Fedora, OpenSUSE and Mageia.
 
         cd ~/rpmbuild/RPMS/x86_64
 
-12. And install the package:
+12. And install the package:  
     **Fedora**
 
         sudo rpm -ivh webcamoid-5.0.0-1.fc21.x86_64.rpm
