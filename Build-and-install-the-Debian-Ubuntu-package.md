@@ -22,7 +22,7 @@
 
         sudo apt-get install build-essential
 
-6. Build the package (if this asks for build dependencies, install it and build again):
+6. Build the package (if it asks for build dependencies, install it and build again):
 
         dpkg-buildpackage -us -uc
 
