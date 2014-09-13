@@ -12,7 +12,7 @@
 
 4. Open the MSYS console and install the build system:
 
-        mingw-get install mingw-developer-toolkit mingw-base mingw-gcc-g++ msys-base msys-unzip  msys-wget
+        mingw-get install mingw-developer-toolkit mingw-base mingw-gcc-g++ msys-base msys-unzip  msys-wget msys-w32api
 
 5. In the MSYS console move to the _Webcamoid/ports/msys_ folder.
 
