@@ -1,7 +1,6 @@
 Webcamoid's dependencies are:
 
-* [Qt](https://qt-project.org/) (Qt >= 4.7 and Qt5)
-* [kdelibs](https://projects.kde.org/projects/kde/kdelibs)
+* [Qt](https://qt-project.org/) (Qt >= 5)
 * [OpenCV](http://opencv.org/) >= 2.0
 * [FFmpeg](http://ffmpeg.org/) >= 2.0
 * [linux-api-headers](http://www.gnu.org/software/libc) >= 3.6.x
@@ -13,7 +12,6 @@ Build dependecies:
 
 You can build Webcamoid with the following commands:
 
-    qmake-qt4 Webcamoid.pro
+    qmake-qt5 Webcamoid.pro
     make
     su -c 'make INSTALL_ROOT=/usr install'
-    kbuildsycoca4
