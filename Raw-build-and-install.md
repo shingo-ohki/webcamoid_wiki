@@ -5,11 +5,6 @@ Webcamoid's dependencies are:
 * [FFmpeg](http://ffmpeg.org/) >= 2.0
 * [linux-api-headers](http://www.gnu.org/software/libc) >= 3.6.x
 
-Build dependecies:
-
-* [Bison](http://www.gnu.org/software/bison/bison.html) >= 2.5
-* [Flex](http://flex.sourceforge.net)
-
 You can build Webcamoid with the following commands:
 
     qmake-qt5 Webcamoid.pro
