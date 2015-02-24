@@ -1,9 +1,11 @@
-1. Download the latest **PKGBUILD** from [here](https://raw.githubusercontent.com/hipersayanX/Webcamoid/master/ports/archlinux/PKGBUILD):
+You can download and install the official Webcamoid packages from the AUR repository. There are two options:
 
-        wget -c https://raw.githubusercontent.com/hipersayanX/Webcamoid/master/ports/archlinux/PKGBUILD
+**Final version**
 
-2. Build and install:
+    yaourt -S webcamoid
 
-        makepkg -si
+**Current working version**
+
+    yaourt -S webcamoid-git
 
 More info [here](https://wiki.archlinux.org/index.php/creating_packages).
