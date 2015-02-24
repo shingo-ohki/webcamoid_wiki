@@ -10,19 +10,19 @@ Works for Fedora, OpenSUSE and Mageia.
 
 3. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/Webcamoid/releases):
 
-        wget -c -O Webcamoid-5.1.0.tar.gz http://github.com/hipersayanX/Webcamoid/archive/v5.1.0.tar.gz
+        wget -c -O Webcamoid-6.0.0.tar.gz http://github.com/hipersayanX/Webcamoid/archive/6.0.0.tar.gz
 
 4. Extract the sources:
 
-        tar -zxvf Webcamoid-5.1.0.tar.gz
+        tar -zxvf Webcamoid-6.0.0.tar.gz
 
 5. Change the name of the extracted folder:
 
-        mv -vf Webcamoid-5.1.0 webcamoid-5.1.0
+        mv -vf Webcamoid-6.0.0 webcamoid-6.0.0
 
 6. Create the new source file:
 
-        tar -zcvf webcamoid-5.1.0.tar.gz webcamoid-5.1.0/
+        tar -zcvf webcamoid-6.0.0.tar.gz webcamoid-6.0.0/
 
 7. Change to your home directory:
 
@@ -30,7 +30,7 @@ Works for Fedora, OpenSUSE and Mageia.
 
 8. Copy the **.spec** file to your home:
 
-        cp -vf ~/rpmbuild/SOURCES/webcamoid-5.1.0/ports/rpm/webcamoid.spec ~
+        cp -vf ~/rpmbuild/SOURCES/webcamoid-6.0.0/ports/rpm/webcamoid.spec ~
 
 9. Install the **rpm-build** package:  
     **Fedora**
@@ -56,10 +56,10 @@ Works for Fedora, OpenSUSE and Mageia.
 12. And install the package:  
     **Fedora**
 
-        sudo rpm -ivh webcamoid-5.1.0-1.fc21.x86_64.rpm
+        sudo rpm -ivh webcamoid-6.0.0-1.fc21.x86_64.rpm
 
     **OpenSUSE and Mageia**
 
-        sudo rpm -ivh webcamoid-5.1.0-1.x86_64.rpm
+        sudo rpm -ivh webcamoid-6.0.0-1.x86_64.rpm
 
 More info [here](https://wiki.mageia.org/en/Packagers_RPM_tutorial#Install_required_package).
