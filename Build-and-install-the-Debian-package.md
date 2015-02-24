@@ -2,15 +2,11 @@ Works also for Ubuntu, Linux Mint and derivatives.
 
 1. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/Webcamoid/releases):
 
-        wget -c -O Webcamoid-6.0.0.tar.gz http://github.com/hipersayanX/Webcamoid/archive/6.0.0.tar.gz
+        wget -c -O webcamoid-6.0.0.tar.gz http://github.com/hipersayanX/Webcamoid/archive/6.0.0.tar.gz
 
 2. Extract the sources:
 
-        tar -zxvf Webcamoid-6.0.0.tar.gz
-
-3. Change the name of the extracted folder:
-
-        mv -vf Webcamoid-6.0.0 webcamoid-6.0.0
+        tar -zxvf webcamoid-6.0.0.tar.gz
 
 3. Create the **.oring** file:
 
