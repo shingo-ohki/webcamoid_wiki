@@ -1,8 +1,8 @@
 Works also for Ubuntu, Linux Mint and derivatives.
 
-1. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/Webcamoid/releases):
+1. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/webcamoid/releases):
 
-        wget -c -O webcamoid-6.0.0.tar.gz http://github.com/hipersayanX/Webcamoid/archive/6.0.0.tar.gz
+        wget -c -O webcamoid-6.0.0.tar.gz http://github.com/hipersayanX/webcamoid/archive/6.0.0.tar.gz
 
 2. Extract the sources:
 
