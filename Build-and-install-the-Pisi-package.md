@@ -5,6 +5,6 @@
 
 3. Install:
 
-        sudo pisi it webcamoid-6.0.0-1-p01-x86_64.pisi
+        sudo pisi it webcamoid-6.1.0-1-p01-x86_64.pisi
 
 More info [here](http://developer.pardus.org.tr/guides/packaging/howto_build_pisi_package.html).
