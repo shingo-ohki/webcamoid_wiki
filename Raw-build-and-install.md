@@ -8,4 +8,4 @@ You can build Webcamoid with the following commands:
 
     qmake-qt5 Webcamoid.pro
     make
-    su -c 'make INSTALL_ROOT=/usr install'
+    su -c 'make install'
