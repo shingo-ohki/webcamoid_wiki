@@ -16,7 +16,7 @@
 
 5. In the MSYS console move to the _Webcamoid/ports/msys_ folder.
 
-        cd /documents/Webcamoid-6.1.0/ports/msys
+        cd /documents/Webcamoid-7.0.0/ports/msys
 
 6. Execute the build script:
 
