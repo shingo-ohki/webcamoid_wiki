@@ -1,6 +1,6 @@
 Webcamoid's dependencies are:
 
-* [Qt](https://qt-project.org/) (Qt >= 5.4, Qt5Base, Qt5Quick1, Qt5QuickControls)
+* [Qt](https://qt-project.org/) (Qt >= 5.5, Qt5Base, Qt5Quick1, Qt5QuickControls)
 * [FFmpeg](http://ffmpeg.org/) >= 2.8
 * [GStreamer](http://gstreamer.freedesktop.org/) >= 1.6
 * [linux-api-headers](http://www.gnu.org/software/libc) >= 3.6.x
