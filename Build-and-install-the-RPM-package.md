@@ -8,9 +8,9 @@ Works for Fedora, OpenSUSE and Mageia.
 
         cd ~/rpmbuild/SOURCES
 
-3. Download the latest source of Webcamoid from [here](https://github.com/hipersayanX/webcamoid/releases):
+3. Download the latest source of Webcamoid from [here](https://github.com/webcamoid/webcamoid/releases):
 
-        wget -c -O webcamoid-7.0.0.tar.gz http://github.com/hipersayanX/webcamoid/archive/7.0.0.tar.gz
+        wget -c -O webcamoid-7.0.0.tar.gz http://github.com/webcamoid/webcamoid/archive/7.0.0.tar.gz
 
 4. Extract the sources:
 
