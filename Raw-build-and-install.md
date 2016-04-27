@@ -9,12 +9,34 @@ Webcamoid's dependencies are:
 
 Webcamoid by default uses **FFmpeg** as codec framework and it's the **recommended** one. You can build Webcamoid with the following commands:
 
-    qmake-qt5 Webcamoid.pro
+    qmake-qt5 Webcamoid.pro # BUILD_FLAGS ...
     make
     su -c 'make install'
 
-Webcamoid also supports **GStreamer** as codec framework but its considered **experimental**. You can build Webcamoid with GStreamer support with the following commands:
+## Build flags ##
 
-    qmake-qt5 Webcamoid.pro USE_GSTREAMER
-    make
-    su -c 'make install'
+### Build options ###
+
+- **USE_GSTREAMER**: Use GStreamer instead of FFmpeg as codec framework (options: 0, 1; default: 0) **EXPERIMENTAL**
+- **BUILDDOCS**: Build documentation files (options: 0, 1; default: 0)
+- **INSTALLDEVHEADERS**: Install development headers (options: 0, 1; default: 0) **UNSTABLE**
+- **STATIC_BUILD**: Build Webcamoid statically (options: 0, 1; default: 0)
+
+### Install paths ###
+
+- **PREFIX**: Architecture-independent files (linux: */usr*, windows: *C:\\Program Files\Webcamoid*)
+- **EXECPREFIX**: Architecture-dependent files (*PREFIX*)
+- **BINDIR**: User executables (*EXECPREFIX/bin*)
+- **SBINDIR**: System admin executables (*EXECPREFIX/sbin*)
+- **LIBEXECDIR**: Program executables (*EXECPREFIX/libexec*)
+- **DATAROOTDIR**: Canonincal read-only architecture-independent data (*PREFIX/share*)
+- **DATDIR**: Read-only architecture-independent data (*DATAROOTDIR/webcamoid*)
+- **SYSCONFDIR**: Read-only single-machine data (*PREFIX/etc*)
+- **SHAREDSTATEDIR**: Modifiable architecture-independent data (*PREFIX/com*)
+- **LOCALSTATEDIR**: Modifiable single-machine data (*PREFIX/var*)
+- **INCLUDEDIR**: C header files (*PREFIX/include*)
+- **DOCDIR**: Documentation files (*DATAROOTDIR/doc/webcamoid*)
+- **LIBDIR**: Object code libraries (*EXECPREFIX/lib*)
+- **LOCALEDIR**: Translations files (*DATAROOTDIR/locale*)
+- **MANDIR**: Man documentation (*DATAROOTDIR/man*)
+- **LICENSEDIR**: License files (*DATAROOTDIR/licenses/webcamoid*)
