@@ -30,7 +30,7 @@ Build with MSYS
 
 4. In the MSYS console move to the _Webcamoid/ports/msys_ folder.
 
-        cd /documents/Webcamoid-7.0.0/ports/msys
+        cd /documents/Webcamoid-7.1.0/ports/msys
 
 5. Execute the build script:
 
