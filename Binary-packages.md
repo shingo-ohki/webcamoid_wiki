@@ -31,7 +31,7 @@ Fedora is supported since **Fedora 23** from OBS. First add the repository:
 
 Then install Webcamoid as:
 
-    yum install webcamoid
+    yum install webcamoid akqml avkys-plugins
 
 # openSUSE #
 
@@ -53,7 +53,7 @@ Webcamoid is officially supported since **Leap**, **Factory** and **Tumbleweed**
 
 Then install Webcamoid as:
 
-    zypper install webcamoid
+    zypper install webcamoid akqml avkys-plugins
 
 # Ubuntu #
 
