@@ -6,6 +6,7 @@ Webcamoid's dependencies are:
 * [linux-api-headers](http://www.gnu.org/software/libc) >= 3.6.x
 * [libpulse](http://www.freedesktop.org/wiki/Software/PulseAudio)
 * [v4l2loopback](https://github.com/umlaeute/v4l2loopback) (Optional for virtual camera support, not required for build)
+* [Mingw-w64](http://mingw-w64.org/doku.php) (>= 5.3.1 for virtual camera support, older versions supported with *COMPILE_VCAM_DRIVER=0*) **Windows**
 
 Webcamoid by default uses **FFmpeg** as codec framework and it's the **recommended** one. You can build Webcamoid with the following commands:
 
@@ -21,6 +22,7 @@ Webcamoid by default uses **FFmpeg** as codec framework and it's the **recommend
 - **BUILDDOCS**: Build documentation files (options: 0, 1; default: 0)
 - **INSTALLDEVHEADERS**: Install development headers (options: 0, 1; default: 0) **UNSTABLE**
 - **STATIC_BUILD**: Build Webcamoid statically (options: 0, 1; default: 0)
+- **COMPILE_VCAM_DRIVER**: Compile virtual camera driver (options: 0, 1; default: 1) **Windows only**
 
 ### Install paths ###
 
