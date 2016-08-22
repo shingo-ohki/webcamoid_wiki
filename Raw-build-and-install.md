@@ -23,6 +23,7 @@ Webcamoid by default uses **FFmpeg** as codec framework and it's the **recommend
 - **INSTALLDEVHEADERS**: Install development headers (options: 0, 1; default: 0) **UNSTABLE**
 - **STATIC_BUILD**: Build Webcamoid statically (options: 0, 1; default: 0)
 - **COMPILE_VCAM_DRIVER**: Compile virtual camera driver (options: 0, 1; default: 1) **Windows only**
+- **ROOT_METHOD**: Select the preferred method for running commands that requires root access (options: su, sudo; default: su) **GNU/Linux only**
 
 ### Install paths ###
 
