@@ -1,6 +1,6 @@
 You can download and install the official Webcamoid packages from the [AUR repository](https://aur4.archlinux.org/packages/webcamoid/). There are two options:
 
-**Final version**
+**Release version**
 
     yaourt -S webcamoid
 
