@@ -1,4 +1,4 @@
-You can download the binary packages for Arch, Debian, Fedora, openSUSE, and Ubuntu from [openSUSE Build Service](https://build.opensuse.org/package/show/home:hipersayan_x/Webcamoid). However, only openSUSE packages receive the status of official. It's highly recommended to install Webcamoid from the official repositories of your distro, if it's not available in your distro, ask your distro maintainers to consider including webcamoid in their repositories.
+You can download the binary packages for Arch, Debian, Fedora, openSUSE, and Ubuntu from [openSUSE Build Service](https://build.opensuse.org/package/show/home:hipersayan_x/Webcamoid). However, packages in OBS are just for testing purpose and doesn't receive the status of official. It's highly recommended to install Webcamoid from the official repositories of your distro, if it's not available in your distro, ask your distro maintainers to consider including Webcamoid in their repositories.
 
 # Arch #
 
@@ -19,7 +19,7 @@ And install Webcamoid as:
 
 # Debian #
 
-Webcamoid is available in the **main** [repository](https://packages.debian.org/sid/webcamoid) of Debian, for branches **testing** and higher. Install Webcamoid as:
+Webcamoid is available in the **main** [repository](https://packages.debian.org/sid/webcamoid) of Debian, for **Stretch** and higher. Install Webcamoid as:
 
     sudo apt-get install webcamoid
 
@@ -35,7 +35,7 @@ Then install Webcamoid as:
 
 # openSUSE #
 
-Webcamoid is officially supported since **Leap**, **Factory** and **Tumbleweed**. First add the repository:
+Webcamoid is supported since **Leap**, **Factory** and **Tumbleweed**. First add the repository:
 
 ## Leap ##
 
