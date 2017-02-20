@@ -13,12 +13,12 @@ The following are operating system targeting dependencies.
 
 **Mac**
 
-* [AVFoundation and CoreAudio](https://developer.apple.com/xcode/) >= 8
+* [Xcode](https://developer.apple.com/xcode/) >= 8
 
 **Windows**
 
 * [Mingw-w64](http://mingw-w64.org/doku.php) >= 4.8.2 (>= 5.3.0 for virtual camera support)
-* [Visual Studio](https://www.visualstudio.com/) >= MSVC2013
+* [Visual Studio](https://www.visualstudio.com/) >= 2013
 
 You need at least one library for each category.
 
