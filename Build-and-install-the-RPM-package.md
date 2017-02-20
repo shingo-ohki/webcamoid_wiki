@@ -10,11 +10,11 @@ Works for Fedora, OpenSUSE and Mageia.
 
 3. Download the latest source of Webcamoid from [here](https://github.com/webcamoid/webcamoid/releases):
 
-        wget -c -O webcamoid-7.2.0.tar.gz http://github.com/webcamoid/webcamoid/archive/7.2.0.tar.gz
+        wget -c -O webcamoid-8.0.0.tar.gz http://github.com/webcamoid/webcamoid/archive/8.0.0.tar.gz
 
 4. Extract the sources:
 
-        tar -zxvf webcamoid-7.2.0.tar.gz
+        tar -zxvf webcamoid-8.0.0.tar.gz
 
 5. Change to your home directory:
 
@@ -22,7 +22,7 @@ Works for Fedora, OpenSUSE and Mageia.
 
 6. Copy the **.spec** file to your home:
 
-        cp -vf ~/rpmbuild/SOURCES/webcamoid-7.2.0/ports/rpm/webcamoid.spec ~
+        cp -vf ~/rpmbuild/SOURCES/webcamoid-8.0.0/ports/rpm/webcamoid.spec ~
 
 7. Install the **rpm-build** package:  
     **Fedora**
@@ -48,10 +48,10 @@ Works for Fedora, OpenSUSE and Mageia.
 10. And install the package:  
     **Fedora**
 
-        sudo rpm -ivh webcamoid-7.2.0-1.fc21.x86_64.rpm
+        sudo rpm -ivh webcamoid-8.0.0-1.fc21.x86_64.rpm
 
     **OpenSUSE and Mageia**
 
-        sudo rpm -ivh webcamoid-7.2.0-1.x86_64.rpm
+        sudo rpm -ivh webcamoid-8.0.0-1.x86_64.rpm
 
 More info [here](https://wiki.mageia.org/en/Packagers_RPM_tutorial#Install_required_package).
