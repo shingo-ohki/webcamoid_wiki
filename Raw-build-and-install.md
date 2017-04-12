@@ -41,6 +41,16 @@ This libraries extends functionalities for video capture.
 * [V4l-utils](https://www.linuxtv.org/wiki/index.php/V4l-utils) (extra formats for the webcam)
 * [libuvc](https://github.com/ktossell/libuvc) (webcam support independent from operating system, **BUGGY**)
 
+**Virtual camera management (GNU/Linux only)**
+
+These programs allow user to add and remove the virtual webcam from the UI. These programs are not required for build.
+
+* [kdesu](https://www.kde.org/workspaces/plasmadesktop/) (*recommended*)
+* [gksu](http://www.nongnu.org/gksu/index.html)
+* [kdesudo](https://launchpad.net/kdesudo)
+* [gtksu](https://github.com/KeithDHedger/GtkSu)
+* [sudo](https://www.sudo.ws/sudo/)
+
 ## Build and install ##
 
 You can build Webcamoid with the following commands:
@@ -56,10 +66,6 @@ You can build Webcamoid with the following commands:
 - **BUILDDOCS**: Build documentation files (options: 0, 1; default: 0)
 - **INSTALLDEVHEADERS**: Install development headers (options: 0, 1; default: 0) **API IS UNSTABLE**
 - **STATIC_BUILD**: Build Webcamoid statically (options: 0, 1; default: 0) **EXPERIMENTAL**
-
-### GNU/Linux build options ###
-
-- **ROOT_METHOD**: Select the preferred method for running commands that requires root access (options: su, sudo; default: su)
 
 ### Disable features ###
 
