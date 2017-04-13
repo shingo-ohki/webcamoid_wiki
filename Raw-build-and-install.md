@@ -41,6 +41,8 @@ This libraries extends functionalities for video capture.
 * [V4l-utils](https://www.linuxtv.org/wiki/index.php/V4l-utils) (extra formats for the webcam)
 * [libuvc](https://github.com/ktossell/libuvc) (webcam support independent from operating system, **BUGGY**)
 
+Consider using [Webcamoid's fork of libuvc](https://github.com/webcamoid/libuvc) instead of the official one since it fixes some bugs that makes it unusable.
+
 **Virtual camera management (GNU/Linux only)**
 
 These programs allow user to add and remove the virtual webcam from the UI. These programs are not required for build.
