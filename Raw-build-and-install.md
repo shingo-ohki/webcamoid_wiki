@@ -96,7 +96,7 @@ You can build Webcamoid with the following commands:
 - **SBINDIR**: System admin executables (*EXECPREFIX/sbin*)
 - **LIBEXECDIR**: Program executables (*EXECPREFIX/libexec*)
 - **DATAROOTDIR**: Canonincal read-only architecture-independent data (*PREFIX/share*)
-- **DATADIR**: Read-only architecture-independent data (*DATAROOTDIR/webcamoid*)
+- **DATDIR**: Read-only architecture-independent data (*DATAROOTDIR/webcamoid*)
 - **SYSCONFDIR**: Read-only single-machine data (*PREFIX/etc*)
 - **SHAREDSTATEDIR**: Modifiable architecture-independent data (*PREFIX/com*)
 - **LOCALSTATEDIR**: Modifiable single-machine data (*PREFIX/var*)
