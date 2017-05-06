@@ -24,7 +24,8 @@ You need at least one library for each category.
 
 **Codec frameworks**
 
-* [FFmpeg](http://ffmpeg.org/) >= 3.1 (*recommended*)
+* [FFmpeg](http://ffmpeg.org/) >= 2.8 (*recommended*)
+* [Libav](https://libav.org/) >= 9.20
 * [GStreamer](http://gstreamer.freedesktop.org/) >= 1.6
 
 **Audio playback**
@@ -95,7 +96,7 @@ You can build Webcamoid with the following commands:
 - **SBINDIR**: System admin executables (*EXECPREFIX/sbin*)
 - **LIBEXECDIR**: Program executables (*EXECPREFIX/libexec*)
 - **DATAROOTDIR**: Canonincal read-only architecture-independent data (*PREFIX/share*)
-- **DATDIR**: Read-only architecture-independent data (*DATAROOTDIR/webcamoid*)
+- **DATADIR**: Read-only architecture-independent data (*DATAROOTDIR/webcamoid*)
 - **SYSCONFDIR**: Read-only single-machine data (*PREFIX/etc*)
 - **SHAREDSTATEDIR**: Modifiable architecture-independent data (*PREFIX/com*)
 - **LOCALSTATEDIR**: Modifiable single-machine data (*PREFIX/var*)
