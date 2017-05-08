@@ -87,6 +87,7 @@ You can build Webcamoid with the following commands:
 - **NOWASAPI=1**: Disable WASAPI support at build
 - **NOVCAMWIN=1**: No build virtual camera in Windows
 - **NOVIDEOEFFECTS=1**: No build video effects
+- **NOLRELEASE=1**: No rebuild translations
 
 ### Install paths ###
 
