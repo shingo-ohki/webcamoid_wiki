@@ -72,6 +72,8 @@ You can build Webcamoid with the following commands:
 
 ### Disable features ###
 
+Webcamoid has a modular design, if you disable some feature during build you can build it later without rebuilding the entire project again, just building the required submodule.
+
 - **NOALSA=1**: Disable ALSA support at build
 - **NOAVFOUNDATION=1**: Disable AVFoundation support at build
 - **NOCOREAUDIO=1**: Disable CoreAudio support at build
