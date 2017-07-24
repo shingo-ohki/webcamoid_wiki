@@ -1,20 +1,21 @@
-Welcome to the Webcamoid wiki!
+Welcome to Webcamoid wiki!
 
-**General**
+### General ###
 
 * [Raw build and install](https://github.com/webcamoid/webcamoid/wiki/Raw-build-and-install)
+* [Reset configs and starting fresh](https://github.com/webcamoid/webcamoid/wiki/Reset-configs-and-starting-fresh)
 
-**GNU/Linux**
+### GNU/Linux ###
 
 * [Build and install the Arch package](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-the-Arch-package)
 * [Build and install the Debian package](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-the-Debian-package)
 * [Build and install the RPM package](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-the-RPM-package)
 * [Binary packages](https://github.com/webcamoid/webcamoid/wiki/Binary-packages)
 
-**Mac**
+### Mac ###
 
 * [Build and install in Mac](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-in-Mac)
 
-**Windows**
+### Windows ###
 
 * [Build and install in Windows](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-in-Windows)
