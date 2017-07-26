@@ -1,4 +1,4 @@
-You can download and install the official Webcamoid packages from the [AUR repository](https://aur4.archlinux.org/packages/webcamoid/). There are two options:
+You can download and install the official Webcamoid packages from the [AUR repository](https://aur.archlinux.org/packages/webcamoid/). There are two options:
 
 **Release version**
 
