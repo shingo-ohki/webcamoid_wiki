@@ -13,7 +13,7 @@ The following are operating system targeting dependencies.
 
 **Mac**
 
-* [Xcode](https://developer.apple.com/xcode/) >= 8
+* [Xcode](https://developer.apple.com/xcode/) >= 8.3
 
 **Windows**
 
