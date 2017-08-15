@@ -54,6 +54,10 @@ These programs allow user to add and remove the virtual webcam from the UI. Thes
 * [gtksu](https://github.com/KeithDHedger/GtkSu)
 * [sudo](https://www.sudo.ws/sudo/)
 
+**Virtual camera support (Mac only)**
+
+* [Syphon](http://syphon.v002.info/)
+
 ## Build and install ##
 
 You can build Webcamoid with the following commands:
@@ -84,6 +88,7 @@ Webcamoid has a modular design, if you disable some feature during build you can
 - **NOLIBUVC=1**: Disable libuvc support at build
 - **NOOSS=1**: Disable OSS support at build
 - **NOPULSEAUDIO=1**: Disable PulseAudio support at build
+- **NOSYPHON=1**: Disable Syphon support at build
 - **NOV4L2=1**: Disable V4L2 support at build
 - **NOV4LUTILS=1**: Disable V4L-utils support at build
 - **NOWASAPI=1**: Disable WASAPI support at build
@@ -109,3 +114,66 @@ Webcamoid has a modular design, if you disable some feature during build you can
 - **LOCALEDIR**: Translations files (*DATAROOTDIR/locale*)
 - **MANDIR**: Man documentation (*DATAROOTDIR/man*)
 - **LICENSEDIR**: License files (*DATAROOTDIR/licenses/webcamoid*)
+
+### Controlling libraries and frameworks paths ###
+
+You can control the paths where Qmake will search for libraries and frameworks by passing the required variables to it. 
+
+__*INCLUDES__ variables points to the path where header files are located.
+
+__*LIBS__ variables controls the way the linker will link a binary file to a library or framework. Setting __*LIBS__ disables pkg-config auto-detection.
+
+Following is the table with available variables for each library:
+
+<table>
+    <thead>
+        <tr><th>LibraryFramework</th><th>Headers</th><th>Libraries</th><th>Example</th></tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>FFmpeg</td><td>FFMPEGINCLUDES</td><td>FFMPEGLIBS</td>
+            <td>
+                FFMPEGINCLUDES=/opt/ffmpeg/include
+                <br />
+                <br />
+                FFMPEGLIBS=-L/opt/ffmpeg/lib FFMPEGLIBS+=-lavformat FFMPEGLIBS+=-lavcodec
+            </td>
+        </tr>
+        <tr>
+            <td>GStreamer</td><td>GSTREAMERINCLUDES</td><td>GSTREAMERLIBS</td>
+            <td>
+                GSTREAMERINCLUDES=/opt/gstreamer/include
+                <br />
+                <br />
+                GSTREAMERLIBS=-L/opt/gstreamer/lib GSTREAMERLIBS+=-lgstaudio GSTREAMERLIBS+=-lgstvideo
+            </td>
+        </tr>
+        <tr>
+            <td>libusb</td><td>LIBUSBINCLUDES</td><td>LIBUSBLIBS</td>
+            <td>
+                LIBUSBINCLUDES=/opt/libusb/include
+                <br />
+                <br />
+                LIBUSBLIBS=-L/opt/libusb/lib LIBUSBLIBS+=-lusb
+            </td>
+        </tr>
+        <tr>
+            <td>libuvc</td><td>LIBUVCINCLUDES</td><td>LIBUVCLIBS</td>
+            <td>
+                LIBUVCINCLUDES=/opt/libuvc/include
+                <br />
+                <br />
+                LIBUVCLIBS=-L/opt/libuvc/lib LIBUVCLIBS+=-luvc
+            </td>
+        </tr>
+        <tr>
+            <td>Syphon</td><td>SYPHONINCLUDES</td><td>SYPHONLIBS</td>
+            <td>
+                SYPHONINCLUDES=/opt/Syphon.framework/Headers
+                <br />
+                <br />
+                SYPHONLIBS=-F/opt SYPHONLIBS+=-framework SYPHONLIBS+=Syphon
+            </td>
+        </tr>
+    </tbody>
+</table>
