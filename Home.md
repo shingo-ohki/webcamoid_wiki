@@ -3,6 +3,7 @@ Welcome to Webcamoid wiki!
 ### General ###
 
 * [Raw build and install](https://github.com/webcamoid/webcamoid/wiki/Raw-build-and-install)
+* [Deploy and create self contained binary packages](https://github.com/webcamoid/webcamoid/wiki/Deploy-and-create-self-contained-binary-packages)
 * [Reset configs and starting fresh](https://github.com/webcamoid/webcamoid/wiki/Reset-configs-and-starting-fresh)
 
 ### GNU/Linux ###
