@@ -27,12 +27,36 @@ Creating the binary packages is as simple as executing the _ports/deploy/deploy.
 
     python3 ports/deploy/deploy.py
 
-**NOTE**: For GNU/Linux users, if you want to run the packages in newer and older distros, you must compile and create the packages in old enough systems, please read [here](https://github.com/AppImage/AppImageKit/wiki/Creating-AppImages#creating-portable-appimages) and [here](https://github.com/AppImage/AppImageKit/wiki/Desktop-Linux-Platform-Issues) for a very comprehensive guide.
-
 ## Platform notes ##
 
-**In progress**
+For GNU/Linux users, if you want to run the packages in newer and older distros, you must compile and create the packages in old enough systems, please read [here](https://github.com/AppImage/AppImageKit/wiki/Creating-AppImages#creating-portable-appimages) and [here](https://github.com/AppImage/AppImageKit/wiki/Desktop-Linux-Platform-Issues) for a very comprehensive guide.
+
+From POSIX to Windows deploy, the deploy script will search for dependencies in the same directory where Qt is installed, following **qmake -query** directives.
+
+For Mac users, the deploy script may be able to work with both official Qt releases and Homebrew.
+
+For Window users, the deploy script may be able to work with both official Qt releases and MSYS2.
 
 ## Deploy flags ##
 
-**In progress**
+Following environment variables are supported:
+
+### Global flags ###
+
+- **PATH**: List of colon or semi-colon (Windows) separated list of paths to search for binaries. System wide environment variable.
+- **QMAKE_PATH**: Path to Qmake executable.
+- **BINARYCREATOR**: Path to Qt Installer framework's binarycreator executable.
+
+### POSIX ###
+
+- **LD_LIBRARY_PATH**: List of colon separated list of paths to search for libraries. System wide environment variable.
+- **APPIMAGETOOL**: Path to AppImage's imagetool executable.
+
+### Mac ###
+
+- **DYLD_LIBRARY_PATH**: List of colon separated list of paths to search for libraries. System wide environment variable.
+- **DYLD_FRAMEWORK_PATH**: List of colon separated list of paths to search for Frameworks. System wide environment variable.
+
+### Windows ###
+
+- **MAKE_PATH**: Path to make executable.
