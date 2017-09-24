@@ -60,3 +60,4 @@ Following environment variables are supported:
 ### Windows ###
 
 - **MAKE_PATH**: Path to make executable.
+- **INSTALL_PREFIX**: Path where binary files will be installed when running _make install_.
