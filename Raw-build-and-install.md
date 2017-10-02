@@ -111,6 +111,7 @@ Webcamoid has a modular design, if you disable some feature during build you can
 - **INCLUDEDIR**: C header files (*PREFIX/include*)
 - **DOCDIR**: Documentation files (*DATAROOTDIR/doc/webcamoid*)
 - **LIBDIR**: Object code libraries (*EXECPREFIX/lib*)
+- **INSTALLQMLDIR**: Path where Qml files will be installed (*LIBDIR/qt/qml*)
 - **LOCALEDIR**: Translations files (*DATAROOTDIR/locale*)
 - **MANDIR**: Man documentation (*DATAROOTDIR/man*)
 - **LICENSEDIR**: License files (*DATAROOTDIR/licenses/webcamoid*)
@@ -119,9 +120,9 @@ Webcamoid has a modular design, if you disable some feature during build you can
 
 You can control the paths where Qmake will search for libraries and frameworks by passing the required variables to it. 
 
-__*INCLUDES__ variables points to the path where header files are located.
+__INCLUDES__ variables points to the path where header files are located.
 
-__*LIBS__ variables controls the way the linker will link a binary file to a library or framework. Setting __*LIBS__ disables pkg-config auto-detection.
+__LIBS__ variables controls the way the linker will link a binary file to a library or framework. Setting __LIBS__ disables pkg-config auto-detection.
 
 Following is the table with available variables for each library:
 
