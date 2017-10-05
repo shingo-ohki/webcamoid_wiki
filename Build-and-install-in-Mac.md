@@ -17,6 +17,7 @@ Build from Qt Creator
    **Qt version**: the Qt version you configured just before  
 7. Go to **General**, in **Default build directory** write **.** (a point), **Ok** and close the window.
 8. Now in **Configure Project** page that appears when you opened the project, select the kit you configured, check **Debug**, **Release** and **Profile**, and **Configure project** button.
-9. Go to **Projects** tab. 
-10. In **Build**, in **Build environment** add */usr/local/bin* to *PATH* variable.
-11. Then build and run.
+9. Go to **Projects** tab.
+10. In **General**, uncheck **Shadow build**.
+11. In **Build**, in **Build environment** add */usr/local/bin* to *PATH* variable.
+12. Then build and run.
