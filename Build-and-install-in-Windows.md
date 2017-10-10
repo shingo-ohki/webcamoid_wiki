@@ -11,12 +11,3 @@ Build from Qt Creator
 6. Copy all DLL from **ffmpeg-#-shared/bin** to the **webcamoid\StandAlone** folder.
 7. In **Run**, in **Arguments** add *-r -q "%cd%\libAvKys" -p "%cd%\libAvKys\Plugins"*
 8. Then build and run.
-
-Build from CLI
-==============
-
-1. Install [7-zip](http://www.7-zip.org/download.html).
-2. Download and put [wget](https://eternallybored.org/misc/wget/) into *ports/mingw* folder.
-3. Execute *ports/mingw/build.sh* script.
-
-More info [here](http://mingw.org/wiki/Getting_Started).
