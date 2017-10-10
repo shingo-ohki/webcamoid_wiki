@@ -25,4 +25,28 @@ You can put FFmpeg packages outside of Webcamoid folder if you want, but remembe
 
 ## Configuring Qt Creator ##
 
-**In Progress**
+1. Open Qt Creator and go to menu _Tools > Options > Build & Run_.
+2. In **Qt Versions**, Press **Add** and select _/usr/i686-w64-mingw32/lib/qt/bin/qmake_ and _/usr/x86_64-w64-mingw32/lib/qt/bin/qmake_, and in **Version name** put **Qt %{Qt:Version} in PATH (lib, MinGW i686)** and **Qt %{Qt:Version} in PATH (lib, MinGW x86_64)** respectively.
+3. In **Compilers**,  Press **Add MinGW** and select 
+
+   C++: _/usr/bin/i686-w64-mingw32-g++_ and _/usr/bin/x86_64-w64-mingw32-g++_  
+   C: _/usr/bin/i686-w64-mingw32-gcc_ and _/usr/bin/x86_64-w64-mingw32-gcc_  
+4. In **Debuggers**, Press **Add** and select _/usr/bin/i686-w64-mingw32-gdb_ and  _/usr/bin/x86_64-w64-mingw32-gdb_.
+5. In **Kits**, Press **Add** and fill the fields as:
+  
+   **Name**: Desktop Qt %{Qt:Version} %{Compiler:Name}  
+   **Device type**: Desktop  
+   **Compiler C/C++**: MinGW  
+   **Debugger**: MinGW GDB  
+   **Qt version**: the MinGW Qt version you configured just before  
+6. With Webcamoid project open, go to **Projects** tab.
+7. Select the MinGW kit you configured just before.
+8. In _Build > Build Steps > Additional arguments_, write  
+
+   PREFIX=/webcamoid FFMPEGINCLUDES=project_priv/win32/ffmpeg/include FFMPEGLIBS=-Lproject_priv/win32/ffmpeg/lib FFMPEGLIBS+=-lavcodec FFMPEGLIBS+=-lavdevice FFMPEGLIBS+=-lavfilter FFMPEGLIBS+=-lavformat FFMPEGLIBS+=-lavutil FFMPEGLIBS+=-lpostproc FFMPEGLIBS+=-lswresample FFMPEGLIBS+=-lswscale.
+
+   Adjust the paths according to the paths of FFmpeg packages.
+
+## Running Webcamoid in Wine ##
+
+**In progress**
