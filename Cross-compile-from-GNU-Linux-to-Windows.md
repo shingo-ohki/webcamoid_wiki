@@ -9,7 +9,7 @@ Webcamoid uses Martchus' Qt packages for building binaries for Windows, you can 
 
     yaourt -S wine mingw-w64 mingw-w64-qt5-base-dynamic mingw-w64-qt5-quickcontrols mingw-w64-qt5-svg
 
-You also must download the FFmpeg packages from [Zeranoe builds](https://ffmpeg.zeranoe.com/builds/) (FFmpeg from AUR will not work in Windows), you need **shared** (provide DLLs) and **dev** (provide headers and libs) packages. The recommended file layout for FFmpeg is as follow:
+You also must download the FFmpeg packages from [Zeranoe builds](https://ffmpeg.zeranoe.com/builds/) (FFmpeg from AUR is broken and does not work in Windows), you need **shared** (provide DLLs) and **dev** (provide headers and libs) packages. The recommended file layout for FFmpeg is as follow:
 
     webcamoid/project_priv/win32/ffmpeg/bin
     webcamoid/project_priv/win32/ffmpeg/include
