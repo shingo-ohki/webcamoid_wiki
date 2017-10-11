@@ -49,4 +49,20 @@ You can put FFmpeg packages outside of Webcamoid folder if you want, but remembe
 
 ## Running Webcamoid in Wine ##
 
-**In progress**
+Now you must create a _webcamoid/project_priv/win32/webcamoid.bat_ file so you can launch Webcamoid in Wine from Qt Creator, the contents of the launcher is as follow:
+
+    SET PATH=%cd%\libAvKys\Lib;%cd%\project_priv\win32;%cd%\project_priv\win32\ffmpeg\bin;Z:\usr\i686-w64-mingw32\bin;%PATH%
+    StandAlone\webcamoid -r -q "%cd%\libAvKys" -p "%cd%\libAvKys\Plugins" -c "%cd%\project_priv\config"
+
+    pause
+
+Then in Qt Creator:
+
+1. Go to _Projects > Run > Run Settings_.
+2. In **Run configuration** press _Add > Custom Executable_, and fill the fields as:  
+   
+   **Executable**: wineconsole  
+   **Command line argumments**: _project_priv/win32/webcamoid.bat_  
+   **Working directory**: %{buildDir}
+
+Then you will be ready to build, launch and test Webcamoid in MinGW and Wine.
