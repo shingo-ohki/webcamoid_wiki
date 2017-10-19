@@ -18,9 +18,7 @@ Alternatively, Webcamoid supports [Syphon](https://github.com/Syphon/Syphon-Fram
 
 ## Windows ##
 
-Webcamoid create the virtual camera as a DirectShow filter, so all programs supporting webcam capture from DirectShow can capture frames from Webcamoid.
-
-Some other programs may use [Microsoft Media Foundation](https://msdn.microsoft.com/en-us/library/windows/desktop/ms694197(v=vs.85).aspx) for webcam capture, making it incompatible with DirectShow filters. It may be required to create a [KMDF or UMDF driver](https://en.wikipedia.org/wiki/Windows_Driver_Frameworks) to make the virtual webcam work in this programs. This is actually under research.
+Virtual camera works out of the box in Windows. If you are running Windows 64 bits, and want to use the virtual webcam with Skype you must install Webcamoid 32 bits, otherwise it will not detect the virtual webcam.
 
 ## Other operating systems ##
 
