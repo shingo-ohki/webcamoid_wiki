@@ -27,4 +27,5 @@ Welcome to Webcamoid wiki!
 
 ## Development ##
 
+* [Community Rules](https://github.com/webcamoid/webcamoid/wiki/Community-Rules)
 * [Coding style and conventions](https://github.com/webcamoid/webcamoid/wiki/Coding-style-and-conventions)
