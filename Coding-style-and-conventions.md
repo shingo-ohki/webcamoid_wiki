@@ -118,6 +118,103 @@ array[i + 1] = tmp;
 
 ### Braces
 
+- Opening curly brace goes in the same line of the statement, the closing brace goes in the same column of it's corresponding statement.
+- for if-else if-else block codes, the closing curly brace goes in the same line of the next statement.
+- One space before the opening curly brace and it's statement.
+- One space after the closing curly brace and the next statement.
+
+```
+// WRONG!
+if (a < b)
+{
+}
+else if (a > b)
+{
+}
+else
+{
+}
+
+// OK
+if (a < b) {
+} else if (a > b) {
+} else {
+}
+```
+
+- In functions, methods, classes and structs, the opening and curly braces goes in the same column of the statement.
+
+```
+// WRONG!
+class MyClass {
+};
+
+void doSomething() {
+}
+
+// OK
+class MyClass
+{
+};
+
+void doSomething() 
+{
+}
+```
+
+- Use braces if the body of a code block is empty.
+- Don't use braces if a code block has only one statement.
+- The exception to the previous rule is in if-else if-else code block, when at least one of the statements has more than one child statement.
+
+```
+// WRONG!
+for (i = 0; i < 10; i++); // The body is empty.
+
+if (a > 0) {
+    doSomething(); // Only one statement.
+}
+
+// 'else' has curly braces, 'if' has not. Not symmetric.
+if (a < 0)
+    doSomething();
+else {
+    doSomethingElse();
+    doSomethingMore();
+}
+
+
+// OK
+for (i = 0; i < 10; i++) {
+}
+
+if (a > 0)
+    doSomething(); // Only one statement.
+
+if (a < 0) {
+    doSomething();
+} else {
+    doSomethingElse();
+    doSomethingMore();
+}
+```
+
+- Use curly braces if the statement is divided into multiple lines, even when the statement body has only one child statement.
+
+```
+// WRONG!
+if (a > 0
+    && isValid()
+    && ok)
+    doSomething();
+
+// OK
+if (a > 0
+    && isValid()
+    && ok) {
+    doSomething();
+}
+```
+
 ### Parentheses
 
 ### Jump statements (break, continue, return, and goto)
