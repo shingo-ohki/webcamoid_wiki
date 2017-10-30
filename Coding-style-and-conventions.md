@@ -1,13 +1,30 @@
-**I progress**
-
 Webcamoid follow more or less Qt [coding style](https://wiki.qt.io/Qt_Coding_Style) and [conventions](https://wiki.qt.io/Coding_Conventions) with some extra rules.
-
-# Coding Style
 
 ### Indentation
 
 - Use spaces for indenting.
 - Use 4 spaces per indent.
+
+### Line breaks
+
+- Keep your code lines bellow the 80 characters limit, and define the logic in small chunks when possible.
+- When splitting long lines, commas goes at the end of the line, operators goes at beginning of the line.
+
+```
+void doSomething(int a,
+                 int b,
+                 int c,
+                 int d,
+                 int e,
+                 int f);
+
+int sum = a
+        + b
+        + c
+        + d
+        + e
+        + f;
+```
 
 ### Declaring variables
 
@@ -24,7 +41,7 @@ for (int i = 0; i < array.size(); i += 2) {
     array[i + 1] = tmp;
 }
 
-// It's clear here that 'x' and 'y' are defining points.
+// It's clear here that 'x' and 'y' are defining points coordinates.
 for (int y = 0; y < image.height(); y++)
     for (int x = 0; x < image.width(); x++)
         image.setPixel(x, y, qRgb(255, 0, 0));
@@ -217,34 +234,150 @@ if (a > 0
 
 ### Parentheses
 
+- Use parentheses to group expressions.
+
+```
+// WRONG!
+if (a && b || c && d)
+
+// OK
+if ((a && b) || (c && d))
+```
+- One space between opening parenthesis and operator or keyword, no space after.
+- One space between closing parenthesis and next operator or keyword, no space before.
+- Neighbor opening or closing parentheses goes together.
+
+```
+// WRONG!
+if( ( a < b )&&( c > d ) )
+
+// OK
+if ((a < b) && (c > d))
+```
+
+- No spaces after or before in parentheses when declaring or defining a function or method.
+
+```
+// WRONG!
+void doSomething ( int a );
+
+// OK
+void doSomething(int a);
+```
+
+### Switch statements
+
+- 'switch' and 'case' statements, goes in the same column.
+
 ### Jump statements (break, continue, return, and goto)
 
-### Line breaks
+- Do not put 'else' after jump statements
 
-### Maps and lists
+```
+// Wrong
+if (thisOrThat)
+    return;
+else
+    somethingElse();
+
+// Correct
+if (thisOrThat)
+    return;
+
+somethingElse();
+```
+
+### Maps and arrays
+
+- When creating an array or map, and it's initializing values doesn't fit under the line limit, the opening brace goes in the same line of the declaration, the first value goes indented in the next line, followed by next values, and the closing brace in the same column of the declaration.
+
+```
+QStringList a = {
+    "foo",
+    "bar",
+    "baz"
+};
+
+QVariantMap a = {
+    {"foo", 0},
+    {"bar", 1},
+    {"baz", 2}
+};
+```
 
 ### Classes and structs
 
+- Use descriptive names for classes and structs.
+- Use CamelCase for classes and structs names, with first letter upper case.
+- When initializing values in constructors, if there are more than one initialization, put the initialization code indented bellow the constructor.
+
+```
+MyClass::MyClass(int a, int b, int c):
+    m_a(a),
+    m_b(b),
+    m_c(c)
+{
+    // Body of the constructor.
+}
+```
+
 ### Blocks of code, loops and conditionals
+
+A block of code is code belonging to a loop, conditional or any code surrounded by curly braces and defined in multiple lines, for example a 'for' or 'while' loop, an if-else if-else, etc..
+
+- Put a while line before and after a code block.
+
+```
+// WRONG!
+int sum = 0;
+QList<int> values = {1, 3, 5, 7, 9};
+for (auto &value: values)
+    sum += value;
+qDebug() << "sum =" << sum;
+
+// OK
+int sum = 0;
+QList<int> values = {1, 3, 5, 7, 9};
+
+for (auto &value: values)
+    sum += value;
+
+qDebug() << "sum =" << sum;
+```
 
 ### Functions and methods
 
-# Coding Conventions
+- Commas in functions and methods parameters, doesn't have spaces before, and have one space after.
 
-### C++ features
+```
+// WRONG!
+doDomething(a,b,c);
+
+// OK
+doDomething(a, b, c);
+```
 
 ### Including headers
 
+- Add one blank line between copyright header and include lines, and one blank line between include lines and code.
+- Library headers must be included in the following order: standard library headers, system libraries headers, Qt headers, Webcamoid headers, 3rd party libraries headers, local headers.
+- Local headers must be surrounded by "" and there must be one blank between local headers and libraries headers.
+
 ### Casting
 
-### Compiler/Platform specific issues
+- Avoid C type casting, and use C++ style.
 
-### Aesthetics
+```
+// WRONG!
+int b = (int) b;
+auto dataOfTypeB = (char *) dataOfTypeA;
 
-### Things to avoid
+// OK
+int b = int(b);
+auto dataOfTypeB = reinterpret_cast<char *>(dataOfTypeA);
+```
 
-### Conventions for public header files
+### C++ features
 
-### Conventions for C++11 usage
-
-### auto Keyword
+- Don't use C++ exceptions.
+- Feel free to use any new C++ feature supported by all compilers supported by the project, if it make the code easier to understand and maintain.
