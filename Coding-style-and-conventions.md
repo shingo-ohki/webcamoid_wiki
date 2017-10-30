@@ -51,6 +51,71 @@ for (int i = 0; i < array.size(); i += 2) {
 
 ### Whitespace
 
+- Don't use white space between '*' or '&' and a variable name.
+
+```
+// WRONG!
+int x = 0;
+int * y = & x;
+
+// OK
+int x = 0;
+int *y = &x;
+```
+- Surround '*' and '&' with one white space if it is surrounded with keywords.
+
+```
+// WRONG!
+const char*const str = "";
+
+// OK
+const char * const str = "";
+```
+
+- One space before and after assignment.
+
+```
+// WRONG!
+int a=0;
+
+// OK
+int a = 0;
+```
+
+- The exception to previous rule are default values in functions and methods parameters. No space before and after assignment.
+
+```
+// WRONG!
+int doSomething(int x, const char *y = NULL);
+
+// OK
+int doSomething(int x, const char *y=NULL);
+```
+
+- Surround binary and math operators with spaces.
+
+```
+// WRONG!
+int c = a+b;
+bool c = a||b;
+
+// OK
+int c = a + b;
+bool c = a || b;
+```
+
+- One statement per line.
+
+```
+// WRONG!
+auto tmp = array[i]; array[i] = array[i + 1]; array[i + 1] = tmp;
+
+// OK
+auto tmp = array[i];
+array[i] = array[i + 1];
+array[i + 1] = tmp;
+```
+
 ### Braces
 
 ### Parentheses
