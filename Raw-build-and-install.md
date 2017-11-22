@@ -13,7 +13,7 @@ The following are operating system targeting dependencies.
 
 **Mac**
 
-* [Xcode](https://developer.apple.com/xcode/) >= 8.3
+* Xcode Command Line Tools (_xcode-select --install_ from a terminal)
 
 **Windows**
 
