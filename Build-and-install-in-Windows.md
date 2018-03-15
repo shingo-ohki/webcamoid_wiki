@@ -15,5 +15,5 @@ Working Directory: %{buildDir}
 Note! this is assuming you cloned the project in a folder named webcamoid and do a shadow build thats parallel to the checkout folder. this is the default when you just clone and open the project.  
 7. Build the project
 8. Copy all DLL from **ffmpeg-#-shared/bin** to the **StandAlone** folder inside your build folder.
-9. In **Run**, in **Arguments** add *-r -q "<absolute path to the build folder>\libAvKys" -p "<absolute path to the build folder>\libAvKys\Plugins"*
+9. In **Run**, in **Arguments** add *-r -q "{replace with absolute path to the build folder}\libAvKys" -p "{replace with absolute path to the build folder}\libAvKys\Plugins"*
 10. run.
