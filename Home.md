@@ -12,9 +12,7 @@ Welcome to Webcamoid wiki!
 
 ### GNU/Linux ###
 
-* [Build and install the Arch package](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-the-Arch-package)
-* [Build and install the Debian package](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-the-Debian-package)
-* [Build and install the RPM package](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-the-RPM-package)
+* [Build and install in GNU/Linux](https://github.com/webcamoid/webcamoid/wiki/Raw-build-and-install)
 * [Cross compile from GNU/Linux to Windows](https://github.com/webcamoid/webcamoid/wiki/Cross-compile-from-GNU-Linux-to-Windows)
 
 ### Mac ###
