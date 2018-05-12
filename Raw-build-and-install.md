@@ -1,6 +1,6 @@
 ## Dependencies ##
 
-The main Webcamoid's dependency is Qt, and it can compile without any other dependency although you will miss a lot of features. Webcamoid can detect which development libraries you have installed in your system and enable support in build according to it, then you will be able to select which library you want to use at run-time for each task.
+The main Webcamoid's dependency is Qt, and it can compile without any other dependency although you will miss a lot of features and will probably not work at all. Webcamoid can detect which development libraries you have installed in your system and enable support in build according to it, then you will be able to select which library you want to use at run-time for each task.
 
 * [Qt](https://qt-project.org/) (Qt >= 5.7.0, QtBase, QtDeclarative, QtQuickControls 1, QtQuickControls 2, QtSvg, QtOpenGL)
 
@@ -18,7 +18,7 @@ The following are operating system targeting dependencies.
 **Windows**
 
 * [Mingw-w64](http://mingw-w64.org/doku.php) >= 4.8.2 (>= 5.3.0 for virtual camera support)
-* [Visual Studio](https://www.visualstudio.com/) >= 2013
+* [Build Tools for Visual Studio](https://www.visualstudio.com/downloads) >= 2013
 
 You need at least one library for each category.
 
@@ -37,7 +37,7 @@ You need at least one library for each category.
 
 **Video capture**
 
-This libraries extends functionalities for video capture.
+This libraries are optional but extends functionalities for video capture.
 
 * [V4l-utils](https://www.linuxtv.org/wiki/index.php/V4l-utils) (extra formats for the webcam)
 * [libuvc](https://github.com/ktossell/libuvc) (webcam support independent from operating system, **BUGGY**)
@@ -52,15 +52,11 @@ These programs allow user to add and remove the virtual webcam from the UI. Thes
 * [gtksu](https://github.com/KeithDHedger/GtkSu)
 * [sudo](https://www.sudo.ws/sudo/)
 
-**Virtual camera support (Mac only)**
-
-* [Syphon](http://syphon.v002.info/)
-
 ## Build and install ##
 
 You can build Webcamoid with the following commands:
 
-    qmake-qt5 Webcamoid.pro # BUILD_FLAGS ...
+    qmake-qt5 Webcamoid.pro BUILD_FLAGS_GOES_HERE
     make
     su -c 'make install'
 
@@ -68,9 +64,9 @@ You can build Webcamoid with the following commands:
 
 ### General build options ###
 
-- **BUILDDOCS**: Build documentation files (options: 0, 1; default: 0)
-- **INSTALLDEVHEADERS**: Install development headers (options: 0, 1; default: 0) **API IS UNSTABLE**
-- **STATIC_BUILD**: Build Webcamoid statically (options: 0, 1; default: 0) **EXPERIMENTAL**
+- **BUILDDOCS=1**: Build documentation files **STUB**
+- **INSTALLDEVHEADERS=1**: Install development headers **API IS UNSTABLE**
+- **STATIC_BUILD=1**: Build Webcamoid statically **EXPERIMENTAL**
 
 ### Disable features ###
 
@@ -79,14 +75,16 @@ Webcamoid has a modular design, if you disable some feature during build you can
 - **NOALSA=1**: Disable ALSA support at build
 - **NOAVFOUNDATION=1**: Disable AVFoundation support at build
 - **NOCOREAUDIO=1**: Disable CoreAudio support at build
+- **NOCOREMEDIAIO=1**: Disable Mac virtual camera support at build
 - **NODSHOW=1**: Disable DirectShow support at build
 - **NOFFMPEG=1**: Disable FFmpeg support at build
 - **NOGSTREAMER=1**: Disable GStreamer support at build
 - **NOJACK=1**: Disable JACK support at build
 - **NOLIBUVC=1**: Disable libuvc support at build
+- **NOMEDIAFOUNDATION=1**: Disable Microsoft Media Foundation support at build
 - **NOOSS=1**: Disable OSS support at build
 - **NOPULSEAUDIO=1**: Disable PulseAudio support at build
-- **NOSYPHON=1**: Disable Syphon support at build
+- **NOQTAUDIO=1**: Disable QAudio support at build
 - **NOV4L2=1**: Disable V4L2 support at build
 - **NOV4LUTILS=1**: Disable V4L-utils support at build
 - **NOWASAPI=1**: Disable WASAPI support at build
@@ -163,15 +161,6 @@ Following is the table with available variables for each library:
                 <br />
                 <br />
                 LIBUVCLIBS=-L/opt/libuvc/lib LIBUVCLIBS+=-luvc
-            </td>
-        </tr>
-        <tr>
-            <td>Syphon</td><td>SYPHONINCLUDES</td><td>SYPHONLIBS</td>
-            <td>
-                SYPHONINCLUDES=/opt/Syphon.framework/Headers
-                <br />
-                <br />
-                SYPHONLIBS=-F/opt SYPHONLIBS+=-framework SYPHONLIBS+=Syphon
             </td>
         </tr>
     </tbody>
