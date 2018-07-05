@@ -2,7 +2,7 @@
 
 The main Webcamoid's dependency is Qt, and it can compile without any other dependency although you will miss a lot of features and will probably not work at all. Webcamoid can detect which development libraries you have installed in your system and enable support in build according to it, then you will be able to select which library you want to use at run-time for each task.
 
-* [Qt](https://qt-project.org/) (Qt >= 5.7.0, QtBase, QtDeclarative, QtQuickControls 1, QtQuickControls 2, QtSvg, QtOpenGL)
+* [Qt](https://qt-project.org/) (Qt >= 5.7.0, QtBase, QtDeclarative, QtQuickControls 1, QtQuickControls 2, QtSvg)
 
 The following are operating system targeting dependencies.
 
