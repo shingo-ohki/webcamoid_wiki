@@ -91,6 +91,7 @@ Webcamoid has a modular design, if you disable some feature during build you can
 - **NOVCAMWIN=1**: No build virtual camera in Windows
 - **NOVIDEOEFFECTS=1**: No build video effects
 - **NOLRELEASE=1**: No rebuild translations
+- **VIRTUALCAMERAONLY=1**: Only build virtual camera components. This option is used with _webcamoid/libAvKys/Plugins/VirtualCamera/VirtualCamera.pro_, no other parts are required to build if you enabled this option.
 
 ### Install paths ###
 
