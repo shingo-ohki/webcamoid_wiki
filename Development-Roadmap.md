@@ -1,6 +1,6 @@
 This is a list of what is considered more or less high priority in the project, and things that are in progress right now. The numbers of features in each release are intended to comply with short (or shortest as possible) development cycles.
 
-## Webcamoid 0.8.5
+## Webcamoid 8.5.0
 
 The version was changed from 8.2.0 to 8.5.0, to reflect the big number of changes in this release, and to mark it as a previous (middle) step before 9.x series.
 
@@ -12,7 +12,7 @@ All virtual camera drivers in all platforms are begin rewritten to support the s
 
 ### Storing/Restoring device configs
 
-issue [#50](https://github.com/webcamoid/webcamoid/issues/50).
+issue [#62](https://github.com/webcamoid/webcamoid/issues/62).
 
 ### Port to QtQuick Controls 2
 
@@ -24,7 +24,7 @@ This is a previous step before Android port.
 
 Allow plugins to put user controls (buttons, sliders, comboboxes, etc.) on top of the frame. This can be used to create draw plugins and plugins depending on visual cues relative to the frame.
 
-## Webcamoid 0.8.6
+## Webcamoid 8.6.0
 
 Depending on time left, this release could be canceled and merged with 9.x series.
 
