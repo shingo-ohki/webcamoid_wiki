@@ -2,7 +2,7 @@
 
 The main Webcamoid's dependency is Qt, and it can compile without any other dependency although you will miss a lot of features and will probably not work at all. Webcamoid can detect which development libraries you have installed in your system and enable support in build according to it, then you will be able to select which library you want to use at run-time for each task.
 
-* [Qt](https://qt-project.org/) (Qt >= 5.7.0, QtBase, QtDeclarative, QtQuickControls 1, QtQuickControls 2, QtSvg)
+* [Qt](https://qt-project.org/) (Qt >= 5.9.0, QtBase, QtDeclarative, QtQuickControls 1, QtQuickControls 2, QtSvg)
 
 The following are operating system targeting dependencies.
 
@@ -17,8 +17,8 @@ The following are operating system targeting dependencies.
 
 **Windows**
 
-* [Mingw-w64](http://mingw-w64.org/doku.php) >= 4.8.2 (>= 5.3.0 for virtual camera support)
-* [Build Tools for Visual Studio](https://www.visualstudio.com/downloads) >= 2013
+* [Mingw-w64](http://mingw-w64.org/doku.php) >= 4.9.2 (>= 5.3.0 for virtual camera support)
+* [Build Tools for Visual Studio](https://www.visualstudio.com/downloads) >= 2015
 
 You need at least one library for each category.
 
