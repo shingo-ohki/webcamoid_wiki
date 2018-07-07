@@ -25,7 +25,6 @@ You need at least one library for each category.
 **Codec frameworks**
 
 * [FFmpeg](http://ffmpeg.org/) >= 2.8 (*recommended*)
-* [Libav](https://libav.org/) >= 9.20
 * [GStreamer](http://gstreamer.freedesktop.org/) >= 1.6
 
 **Audio playback**
