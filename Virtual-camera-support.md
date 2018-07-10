@@ -2,12 +2,30 @@ A virtual webcam is a program that create some interfaces that other programs ca
 
 ## GNU/Linux ##
 
-Webcamoid create the virtual webcam through [v4l2loopback](https://github.com/umlaeute/v4l2loopback), if webcam programs list the webcams from _/dev/video*_ and they are are not very picky about resolutions or formats, it will work well. If the programs detects the webcams by listing USB devices, the programs will be not able to detect the webcam, but it will be possible in a future.
+Webcamoid create the virtual webcam through [v4l2loopback](https://github.com/umlaeute/v4l2loopback), if webcam programs list the webcams from _/dev/video*_ and they are are not very picky about resolutions or formats, it will work well. If the programs detects the webcams by listing USB devices, the programs will be not able to detect the webcam, but it will be possible in a future.  
+Following compatibility table is based on tests made using v4l2loopback:
+
+:green_heart: Works  
+:yellow_heart: May work but not tested  
+:heart: Does not works
+
+<table>
+    <thead>
+        <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>ffmpeg</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>ffplay</td><td>:green_heart:</td><td></td></tr>
+    </tbody>
+    <tfoot>
+        <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
+    </tfoot>
+</table>
 
 ## Mac ##
 
-Creating a virtual webcam in Mac is fully supported, but only available in development branch. 
-Following compatibility table is based on tests made in development branch (future Webcamoid 8.5.0):
+Creating a virtual webcam in Mac is fully supported, but only available in development branch.  
+Following compatibility table is based on tests made in development branch (future **Webcamoid 8.5.0**):
 
 :green_heart: Works  
 :yellow_heart: May work but not tested  
@@ -29,8 +47,8 @@ Following compatibility table is based on tests made in development branch (futu
 
 ## Windows ##
 
-In **Webcamoid 8.1.0**, Virtual camera works out of the box in Windows. If you are running Windows 64 bits, and want to use the virtual webcam with Skype you must install Webcamoid 32 bits, otherwise it will not detect the virtual webcam.
-Following compatibility table is based on tests made in development branch (future Webcamoid 8.5.0):
+In **Webcamoid 8.1.0**, Virtual camera works out of the box in Windows. If you are running Windows 64 bits, and want to use the virtual webcam with Skype you must install Webcamoid 32 bits, otherwise it will not detect the virtual webcam.  
+Following compatibility table is based on tests made in development branch (future **Webcamoid 8.5.0**):
 
 :green_heart: Works  
 :yellow_heart: May work but not tested  
