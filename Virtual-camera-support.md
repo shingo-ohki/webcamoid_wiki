@@ -17,7 +17,7 @@ Following compatibility table is based on tests made using v4l2loopback:
         <tr><td>Cheese</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
         <tr><td>ffmpeg</td><td>:green_heart:</td><td></td></tr>
         <tr><td>ffplay</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Firefox Adobe Flash Player</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Firefox Adobe Flash Player</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
         <tr><td>Firefox HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td>Not detecting any webcam in general</td></tr>
         <tr><td>Google Chrome HTML5</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
@@ -53,8 +53,13 @@ Following compatibility table is based on tests made in development branch (futu
     </thead>
     <tbody>
         <tr><td>CamTwist</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Firefox Adobe Flash Player</td><td>:heart:</td><td></td></tr>
+        <tr><td>Firefox HTML5</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td>Flash not working</td></tr>
+        <tr><td>Google Chrome HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>ManyCam</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Photo Booth</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Safari</td><td>:heart:</td><td>Nothing works</td></tr>
     </tbody>
     <tfoot>
         <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
