@@ -14,8 +14,22 @@ Following compatibility table is based on tests made using v4l2loopback:
         <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
     </thead>
     <tbody>
+        <tr><td>Cheese</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
         <tr><td>ffmpeg</td><td>:green_heart:</td><td></td></tr>
         <tr><td>ffplay</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Firefox Adobe Flash Player</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Firefox HTML5</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td>Not detecting any webcam in general</td></tr>
+        <tr><td>Google Chrome HTML5</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
+        <tr><td>GStreamer</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>guvcview</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Kamoso</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
+        <tr><td>mplayer</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Skype</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>VirtualBox</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>VLC</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Wine v4l2loopback</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Wine DirectShow</td><td>:green_heart:</td><td>Virtual camera for Windows works for other Windows apps in Wine based on <b>Webcamoid 8.5.0</b> tests</td></tr>
     </tbody>
     <tfoot>
         <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
@@ -65,11 +79,11 @@ Following compatibility table is based on tests made in development branch (futu
         <tr><td>Bandicam</td><td>:green_heart:</td><td></td></tr>
         <tr><td>CyberLink PerfectCam</td><td>:green_heart:</td><td></td></tr>
         <tr><td>CyberLink YouCam</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Firefox HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Firefox Adobe Flash Player</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Firefox HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Free2X Webcam Recorder</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Google Chrome HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td>Not detecting any webcam in general</td></tr>
+        <tr><td>Google Chrome HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>GraphEdit</td><td>:green_heart:</td><td></td></tr>
         <tr><td>GraphStudioNext</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Internet Explorer</td><td>:heart:</td><td></td></tr>
