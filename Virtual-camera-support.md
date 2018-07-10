@@ -7,6 +7,25 @@ Webcamoid create the virtual webcam through [v4l2loopback](https://github.com/um
 ## Mac ##
 
 Creating a virtual webcam in Mac is fully supported, but only available in development branch. 
+Following compatibility table is based on tests made in development branch (future Webcamoid 8.5.0):
+
+:green_heart: Works  
+:yellow_heart: May work but not tested  
+:heart: Does not works
+
+<table>
+    <thead>
+        <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>CamTwist</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>ManyCam</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Photo Booth</td><td>:green_heart:</td><td></td></tr>
+    </tbody>
+    <tfoot>
+        <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
+    </tfoot>
+</table>
 
 ## Windows ##
 
@@ -49,6 +68,7 @@ Following compatibility table is based on tests made in development branch (futu
         <tr><td>VLC</td><td>:green_heart:</td><td></td></tr>
         <tr><td>WebCam2000</td><td>:heart:</td><td></td></tr>
         <tr><td>WebcamMax</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>WebcamViewer</td><td>:green_heart:</td><td></td></tr>
         <tr><td>webcamXP</td><td>:heart:</td><td></td></tr>
         <tr><td>Yawcam</td><td>:heart:</td><td>Crash</td></tr>
     </tbody>
