@@ -25,6 +25,8 @@ Following compatibility table is based on tests made using v4l2loopback:
         <tr><td>guvcview</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Kamoso</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
         <tr><td>mplayer</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Opera Adobe Flash Player</td><td>:heart:</td><td>Not detecting any webcam in general</td></tr>
+        <tr><td>Opera HTML5</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
         <tr><td>Skype</td><td>:green_heart:</td><td></td></tr>
         <tr><td>VirtualBox</td><td>:green_heart:</td><td></td></tr>
         <tr><td>VLC</td><td>:green_heart:</td><td></td></tr>
