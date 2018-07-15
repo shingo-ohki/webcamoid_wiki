@@ -6,7 +6,7 @@ Webcamoid create the virtual webcam through [v4l2loopback](https://github.com/um
 Following compatibility table is based on tests made using v4l2loopback:
 
 :green_heart: Works  
-:yellow_heart: May work but not tested  
+:yellow_heart: Works under some conditions  
 :heart: Does not works
 
 <table>
@@ -44,7 +44,7 @@ Creating a virtual webcam in Mac is fully supported, but only available in devel
 Following compatibility table is based on tests made in development branch (future **Webcamoid 8.5.0**):
 
 :green_heart: Works  
-:yellow_heart: May work but not tested  
+:yellow_heart: Works under some conditions  
 :heart: Does not works
 
 <table>
@@ -72,7 +72,7 @@ In **Webcamoid 8.1.0**, Virtual camera works out of the box in Windows. If you a
 Following compatibility table is based on tests made in development branch (future **Webcamoid 8.5.0**):
 
 :green_heart: Works  
-:yellow_heart: May work but not tested  
+:yellow_heart: Works under some conditions  
 :heart: Does not works
 
 <table>
@@ -98,7 +98,7 @@ Following compatibility table is based on tests made in development branch (futu
         <tr><td>ManyCam</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Microsoft Edge</td><td>:heart:</td><td>UWP apps does not supports DirectShow filters</td></tr>
         <tr><td>Open Broadcaster Software (OBS)</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Pidgin</td><td>:yellow_heart:</td><td></td></tr>
+        <tr><td>Pidgin</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Skype for Desktop</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Skype UWP</td><td>:heart:</td><td>UWP apps does not supports DirectShow filters</td></tr>
         <tr><td>SparkoCam</td><td>:green_heart:</td><td></td></tr>
