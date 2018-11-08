@@ -6,35 +6,43 @@ Webcamoid create the virtual webcam through [v4l2loopback](https://github.com/um
 Following compatibility table is based on tests made using v4l2loopback:
 
 :green_heart: Works  
-:yellow_heart: Works under some conditions  
 :heart: Does not works
 
 <table>
     <thead>
-        <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
+        <tr><th rowspan=2>Program</th><th colspan=2>Works?</th><th rowspan=2>Notes</th></tr>
+        <tr><th>v4l2loopback</th><th>akvcam</th></tr>
     </thead>
     <tbody>
-        <tr><td>Cheese</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
-        <tr><td>ffmpeg</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>ffplay</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Firefox Adobe Flash Player</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
-        <tr><td>Firefox HTML5</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td>Not detecting any webcam in general</td></tr>
-        <tr><td>Google Chrome HTML5</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
-        <tr><td>GStreamer</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>guvcview</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Kamoso</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
-        <tr><td>mplayer</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Opera Adobe Flash Player</td><td>:heart:</td><td>Not detecting any webcam in general</td></tr>
-        <tr><td>Opera HTML5</td><td>:heart:</td><td>Only real cameras are detected</td></tr>
-        <tr><td>Skype</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>VirtualBox</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>VLC</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Wine v4l2loopback</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Wine DirectShow</td><td>:green_heart:</td><td>Virtual camera for Windows works for other Windows apps in Wine based on <b>Webcamoid 8.5.0</b> tests</td></tr>
+        <tr><td>Camorama</td><td></td><td></td><td></td></tr>
+        <tr><td>Cheese</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>ffmpeg</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>ffplay</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>Firefox Adobe Flash Player</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>Firefox HTML5</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>Google Chrome HTML5</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>GStreamer</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>guvcview</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>HasciiCam</td><td></td><td></td><td></td></tr>
+        <tr><td>Kamerka</td><td></td><td></td><td></td></tr>
+        <tr><td>Kamoso</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>mplayer</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>Open Broadcaster Software (OBS)</td><td></td><td></td><td></td></tr>
+        <tr><td>Opera Adobe Flash Player</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>Opera HTML5</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>QtCAM</td><td></td><td></td><td></td></tr>
+        <tr><td>qv4l2</td><td></td><td></td><td></td></tr>
+        <tr><td>Skype</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>VirtualBox</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>VLC</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>Wine native</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>Wine DirectShow</td><td>:green_heart:</td><td></td><td>Virtual camera for Windows works for other Windows apps in Wine based on <b>Webcamoid 8.5.0</b> tests</td></tr>
+        <tr><td>Zart</td><td></td><td></td><td></td></tr>
     </tbody>
     <tfoot>
-        <tr><th>Program</th><th>Works?</th><th>Notes</th></tr>
+        <tr><th rowspan=2>Program</th><th>v4l2loopback</th><th>akvcam</th><th rowspan=2>Notes</th></tr>
+        <tr><th colspan=2>Works?</th></tr>
     </tfoot>
 </table>
 
@@ -44,7 +52,6 @@ Creating a virtual webcam in Mac is fully supported, but only available in devel
 Following compatibility table is based on tests made in development branch (future **Webcamoid 8.5.0**):
 
 :green_heart: Works  
-:yellow_heart: Works under some conditions  
 :heart: Does not works
 
 <table>
@@ -72,7 +79,6 @@ In **Webcamoid 8.1.0**, Virtual camera works out of the box in Windows. If you a
 Following compatibility table is based on tests made in development branch (future **Webcamoid 8.5.0**):
 
 :green_heart: Works  
-:yellow_heart: Works under some conditions  
 :heart: Does not works
 
 <table>
