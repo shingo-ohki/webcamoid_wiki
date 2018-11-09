@@ -15,29 +15,29 @@ Following compatibility table is based on tests made using v4l2loopback:
     </thead>
     <tbody>
         <tr><td>Camorama</td><td></td><td></td><td></td></tr>
-        <tr><td>Cheese</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>Cheese</td><td>:heart:</td><td></td><td></td></tr>
         <tr><td>ffmpeg</td><td>:green_heart:</td><td></td><td></td></tr>
         <tr><td>ffplay</td><td>:green_heart:</td><td></td><td></td></tr>
-        <tr><td>Firefox Adobe Flash Player</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>Firefox Adobe Flash Player</td><td>:heart:</td><td></td><td></td></tr>
         <tr><td>Firefox HTML5</td><td>:green_heart:</td><td></td><td></td></tr>
-        <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
-        <tr><td>Google Chrome HTML5</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td></td><td></td></tr>
+        <tr><td>Google Chrome HTML5</td><td>:heart:</td><td></td><td></td></tr>
         <tr><td>GStreamer</td><td>:green_heart:</td><td></td><td></td></tr>
         <tr><td>guvcview</td><td>:green_heart:</td><td></td><td></td></tr>
         <tr><td>HasciiCam</td><td></td><td></td><td></td></tr>
         <tr><td>Kamerka</td><td></td><td></td><td></td></tr>
-        <tr><td>Kamoso</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>Kamoso</td><td>:heart:</td><td></td><td></td></tr>
         <tr><td>mplayer</td><td>:green_heart:</td><td></td><td></td></tr>
         <tr><td>Open Broadcaster Software (OBS)</td><td></td><td></td><td></td></tr>
-        <tr><td>Opera Adobe Flash Player</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
-        <tr><td>Opera HTML5</td><td>:heart:</td><td></td><td><b>v4l2loopback</b>: Only real cameras are detected</td></tr>
+        <tr><td>Opera Adobe Flash Player</td><td>:heart:</td><td></td><td></td></tr>
+        <tr><td>Opera HTML5</td><td>:heart:</td><td></td><td></td></tr>
         <tr><td>QtCAM</td><td></td><td></td><td></td></tr>
         <tr><td>qv4l2</td><td></td><td></td><td></td></tr>
         <tr><td>Skype</td><td>:green_heart:</td><td></td><td></td></tr>
         <tr><td>VirtualBox</td><td>:green_heart:</td><td></td><td></td></tr>
         <tr><td>VLC</td><td>:green_heart:</td><td></td><td></td></tr>
         <tr><td>Wine native</td><td>:green_heart:</td><td></td><td></td></tr>
-        <tr><td>Wine DirectShow</td><td>:green_heart:</td><td></td><td>Virtual camera for Windows works for other Windows apps in Wine based on <b>Webcamoid 8.5.0</b> tests</td></tr>
+        <tr><td>Wine DirectShow</td><td>:green_heart:</td><td></td><td>Virtual camera for Windows works for other Windows apps in Wine, based on <b>Webcamoid 8.5.0</b> tests</td></tr>
         <tr><td>Zart</td><td></td><td></td><td></td></tr>
     </tbody>
     <tfoot>
