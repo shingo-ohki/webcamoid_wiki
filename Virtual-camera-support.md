@@ -2,8 +2,11 @@ A virtual webcam is a program that create some interfaces that other programs ca
 
 ## GNU/Linux ##
 
-Webcamoid create the virtual webcam through [v4l2loopback](https://github.com/umlaeute/v4l2loopback), if webcam programs list the webcams from _/dev/video*_ and they are are not very picky about resolutions or formats, it will work well. If the programs detects the webcams by listing USB devices, the programs will be not able to detect the webcam, but it will be possible in a future.  
-Following compatibility table is based on tests made using v4l2loopback:
+As of Webcamoid 8.5.0 (next release) it can use [v4l2loopback](https://github.com/umlaeute/v4l2loopback) and [akvcam](https://github.com/webcamoid/akvcam) as virtual camera driver.  
+
+If webcam programs list the webcams from _/dev/video*_ and they are are not very picky about resolutions or formats, it will work well. If the programs detects the webcams by listing USB devices, the programs will be not able to detect the webcam, but it will be possible in a future.  
+
+Following compatibility table is based on tests made with development version:
 
 :green_heart: Works  
 :heart: Does not works
@@ -34,7 +37,7 @@ Following compatibility table is based on tests made using v4l2loopback:
         <tr><td>QtCAM</td><td></td><td>:green_heart:</td><td></td></tr>
         <tr><td>qv4l2</td><td></td><td>:green_heart:</td><td></td></tr>
         <tr><td>Skype</td><td>:green_heart:</td><td>:green_heart:</td><td></td></tr>
-        <tr><td>VirtualBox</td><td>:green_heart:</td><td>:heart:</td><td></td></tr>
+        <tr><td>VirtualBox</td><td>:green_heart:</td><td>:heart:</td><td><b>akvcam</b>: Picture get corrupted, or the program get stuck</td></tr>
         <tr><td>VLC</td><td>:green_heart:</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Wine native</td><td>:green_heart:</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Wine DirectShow</td><td>:green_heart:</td><td>:green_heart:</td><td>Virtual camera for Windows works for other Windows apps in Wine, based on <b>Webcamoid 8.5.0</b> tests</td></tr>
@@ -44,7 +47,9 @@ Following compatibility table is based on tests made using v4l2loopback:
         <tr><th rowspan=2>Program</th><th>v4l2loopback</th><th>akvcam</th><th rowspan=2>Notes</th></tr>
         <tr><th colspan=2>Works?</th></tr>
     </tfoot>
-</table>
+</table>  
+  
+Programs marked with :heart: in **v4l2loopback** means the program does not detect the camera.
 
 ## Mac ##
 
