@@ -33,7 +33,7 @@ Following compatibility table is based on tests made using v4l2loopback:
         <tr><td>Opera HTML5</td><td>:heart:</td><td>:green_heart:</td><td></td></tr>
         <tr><td>QtCAM</td><td></td><td>:green_heart:</td><td></td></tr>
         <tr><td>qv4l2</td><td></td><td>:green_heart:</td><td></td></tr>
-        <tr><td>Skype</td><td>:green_heart:</td><td></td><td></td></tr>
+        <tr><td>Skype</td><td>:green_heart:</td><td>:green_heart:</td><td></td></tr>
         <tr><td>VirtualBox</td><td>:green_heart:</td><td>:heart:</td><td></td></tr>
         <tr><td>VLC</td><td>:green_heart:</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Wine native</td><td>:green_heart:</td><td>:green_heart:</td><td></td></tr>
