@@ -87,7 +87,7 @@ Webcamoid has a modular design, if you disable some feature during build you can
 - **NOV4L2=1**: Disable V4L2 support at build
 - **NOV4LUTILS=1**: Disable V4L-utils support at build
 - **NOWASAPI=1**: Disable WASAPI support at build
-- **NOVCAMWIN=1**: No build virtual camera in Windows
+- **NOVCAM=1**: Disable virtual camera support
 - **NOVIDEOEFFECTS=1**: No build video effects
 - **NOLRELEASE=1**: No rebuild translations
 - **VIRTUALCAMERAONLY=1**: Only build virtual camera components. This option is used with _webcamoid/libAvKys/Plugins/VirtualCamera/VirtualCamera.pro_, no other parts are required to build if you enabled this option.
