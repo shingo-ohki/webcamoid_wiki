@@ -9,6 +9,7 @@ The following are operating system targeting dependencies.
 **GNU/Linux**
 
 * [linux-api-headers](http://www.gnu.org/software/libc) >= 3.6.x
+* [akvcam](https://github.com/webcamoid/akvcam) (Optional recommended for virtual camera support, not required for build)
 * [v4l2loopback](https://github.com/umlaeute/v4l2loopback) (Optional for virtual camera support, not required for build)
 
 **Mac**
@@ -17,7 +18,7 @@ The following are operating system targeting dependencies.
 
 **Windows**
 
-* [Mingw-w64](http://mingw-w64.org/doku.php) >= 4.9.2 (>= 5.3.0 for virtual camera support)
+* [Mingw-w64](http://mingw-w64.org/doku.php) >= 4.9.2
 * [Build Tools for Visual Studio](https://www.visualstudio.com/downloads) >= 2015
 
 You need at least one library for each category.
@@ -45,11 +46,13 @@ This libraries are optional but extends functionalities for video capture.
 
 These programs allow user to add and remove the virtual webcam from the UI. These programs are not required for build.
 
-* [kdesu](https://www.kde.org/workspaces/plasmadesktop/) (*recommended*)
+* [pkexec](https://www.freedesktop.org/wiki/Software/polkit/)
+* [kdesu](https://www.kde.org/workspaces/plasmadesktop/)
 * [gksu](http://www.nongnu.org/gksu/index.html)
 * [kdesudo](https://launchpad.net/kdesudo)
 * [gtksu](https://github.com/KeithDHedger/GtkSu)
-* [sudo](https://www.sudo.ws/sudo/)
+* [ktsuss](https://github.com/nomius/ktsuss)
+* [beesu](https://koji.fedoraproject.org/koji/packageinfo?packageID=7613)
 
 ## Build and install ##
 
