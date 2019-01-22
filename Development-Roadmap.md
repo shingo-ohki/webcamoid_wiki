@@ -1,45 +1,29 @@
 This is a list of what is considered more or less high priority in the project, and things that are in progress right now. The numbers of features in each release are intended to comply with short (or shortest as possible) development cycles.
 
-## Webcamoid 8.5.0
-
-The version was changed from 8.2.0 to 8.5.0, to reflect the big number of changes in this release, and to mark it as a previous (middle) step before 9.x series.
-
-### Improve virtual camera support in all platforms
-
-All virtual camera drivers in all platforms are begin rewritten to support the same common features (create any number of webcams, options to configure what formats and resolutions will be available to other programs, and so on).
-
-**In progress**
+## Webcamoid 8.6.0
 
 ### Storing/Restoring device configs
 
 issue [#62](https://github.com/webcamoid/webcamoid/issues/62).
 
-### Port to QtQuick Controls 2
+### Packaging and source control improvements
 
-This is a previous step before Android port.
-
-**Done**
-
-### Add a new control area on top of frame
-
-Allow plugins to put user controls (buttons, sliders, comboboxes, etc.) on top of the frame. This can be used to create draw plugins and plugins depending on visual cues relative to the frame.
-
-## Webcamoid 8.6.0
-
-Depending on time left, this release could be canceled and merged with 9.x series.
+Add support for MSYS2.  
+Support CI for FreeBSD.  
+Add static code analysis.  
+Daily builds.  
 
 ### Improve GStreamer support
 
 Until now GStreamer was used as an alternative codec framework to FFmpeg, in case FFmpeg was not available in the target system. To provide an acceptable quality of formats and codecs, only those GStreamer plugins marked as GST_RANK_PRIMARY was enabled by default. The result of the that is the big lack of common formats and codecs. The rank must be lowered and formats and codecs must be tested thoroughly to fix issues and ensure a good quality result.
 
-### OpenGL texture as a packet
+### Add a new control area on top of frame
 
-This is a previous step before 9.x series.
-Plugins may be able to take advantage of OpenGL shaders to process frame faster with GPU power. the plugins may be able to convert packets cleanly between traditional RGB (and similar formats) video frames and OpenGL texture packets, and vice versa.
+Allow plugins to put user controls (buttons, sliders, comboboxes, etc.) on top of the frame. This can be used to create draw plugins and plugins depending on visual cues relative to the frame.
 
 ## Webcamoid 9.0.0
 
-The much expected platform limits breaking release. The development of this release is planned to start between August/September 2018, and y expected to be finished before the end of 2019.
+The much expected platform limits breaking release.
 
 ### Android port
 
