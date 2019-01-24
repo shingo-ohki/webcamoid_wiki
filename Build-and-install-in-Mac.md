@@ -23,12 +23,12 @@ Build from Qt Creator
 10. In **General**, uncheck **Shadow build**, it doesn't seems to play well in Mac.
 11. This step is optional but may be useful.  
     11.a) In **Additional arguments** you can add **CONFIG+=silent** to reduce compile verbosity, and make compile errors easier to notice.
-    11.b) In **Build Steps > Make > Make argumments** add **-j[number of supported CPU threads]** to speed up build, for example **-j4**.  
+    11.b) In **Build Steps > Make > Make arguments** add **-j[number of supported CPU threads]** to speed up build, for example **-j4**.  
 12. This step is also optional but let you create the installer and portable packages. Enabling deploy scripts may slow down the build a lot, so you are advised to disable this if you are just debugging.  
     12.a) In **Build Steps > Add Build Step > Custom Process Step**, in **Command** write **python3**.  
-    12.b) In **Argumments** add _/[path]/webcamoid/ports/deploy/deploy.py_.  
+    12.b) In **Arguments** add _/[path]/webcamoid/ports/deploy/deploy.py_.  
     12.c) You can disable this step checking the 🛇 icon near to **Details**.  
-13. In **Build & Run > Run > Command line argumments** add:
+13. In **Build & Run > Run > Command line arguments** add:
   
 ```
 --vcam /[path]/webcamoid/libAvKys/Plugins/VirtualCamera/src/cmio/VirtualCamera -r -p /[path]/webcamoid/libAvKys/Plugins -q /[path]/webcamoid/libAvKys
