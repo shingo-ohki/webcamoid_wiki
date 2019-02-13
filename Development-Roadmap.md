@@ -6,6 +6,8 @@ This is a list of what is considered more or less high priority in the project, 
 
 issue [#62](https://github.com/webcamoid/webcamoid/issues/62).
 
+**Done**
+
 ### Packaging and source control improvements
 
 Add support for MSYS2.  
