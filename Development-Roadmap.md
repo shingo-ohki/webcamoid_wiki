@@ -21,10 +21,6 @@ Daily builds.
 
 Until now GStreamer was used as an alternative codec framework to FFmpeg, in case FFmpeg was not available in the target system. To provide an acceptable quality of formats and codecs, only those GStreamer plugins marked as GST_RANK_PRIMARY was enabled by default. The result of the that is the big lack of common formats and codecs. The rank must be lowered and formats and codecs must be tested thoroughly to fix issues and ensure a good quality result.
 
-### Add a new control area on top of frame
-
-Allow plugins to put user controls (buttons, sliders, comboboxes, etc.) on top of the frame. This can be used to create draw plugins and plugins depending on visual cues relative to the frame.
-
 ## Webcamoid 9.0.0
 
 The much expected platform limits breaking release.
@@ -36,6 +32,10 @@ Make Webcamoid work in Android. It must be available in F-Droid (free) and Play 
 ### New GUI
 
 Current GUI doesn't play well with mobile and small screens at all and it's outdated anyways. This is a big requirement for Android port.
+
+### Add a new control area on top of frame
+
+Allow plugins to put user controls (buttons, sliders, comboboxes, etc.) on top of the frame. This can be used to create draw plugins and plugins depending on visual cues relative to the frame.
 
 ### Scripted plugins (aka Add-ons)
 
