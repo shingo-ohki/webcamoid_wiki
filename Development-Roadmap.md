@@ -21,6 +21,8 @@ Daily builds.
 
 Until now GStreamer was used as an alternative codec framework to FFmpeg, in case FFmpeg was not available in the target system. To provide an acceptable quality of formats and codecs, only those GStreamer plugins marked as GST_RANK_PRIMARY was enabled by default. The result of the that is the big lack of common formats and codecs. The rank must be lowered and formats and codecs must be tested thoroughly to fix issues and ensure a good quality result.
 
+**Done**
+
 ## Webcamoid 9.0.0
 
 The much expected platform limits breaking release.
