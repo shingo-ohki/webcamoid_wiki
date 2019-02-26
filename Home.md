@@ -12,7 +12,7 @@ Welcome to Webcamoid wiki!
 
 ### GNU/Linux ###
 
-* [Build and install in GNU/Linux](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-in-GNU-Linux)
+* [Build and install in GNU Linux and FreeBSD](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-in-GNU-Linux-and-FreeBSD)
 * [Cross compile from GNU/Linux to Windows](https://github.com/webcamoid/webcamoid/wiki/Cross-compile-from-GNU-Linux-to-Windows)
 
 ### Mac ###
