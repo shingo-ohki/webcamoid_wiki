@@ -4,10 +4,7 @@ Build from Qt Creator
 =====================
 
 1. Install [Homebrew](https://brew.sh/).
-2. Install the required dependencies:  
-   
-   **Basic**: _brew install pkg-config qt5 ffmpeg_  
-   **Full**: _brew install pkg-config qt5 ffmpeg gstreamer gst-plugins-base pulseaudio jack libuvc_
+2. Install the required [dependencies](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L402).
 3. Intall Qt Creator from homebrew (**brew install caskroom/cask/qt-creator**) or from [official releases](http://download.qt.io/official_releases/qtcreator/).
 4. Open *Webcamoid.pro* file with Qt creator.
 5. If this is the first time you used Qt Creator, you probably have not any kit configured to build the project, so go to **Qt Creator > Preferences... > Build & Run > Qt Versions > Add** press ⇧⌘G and write _/usr/local/Cellar/qt_, go into the folder of the Qt version you have installed, then select bin/qmake.
