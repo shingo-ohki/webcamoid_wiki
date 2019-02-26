@@ -10,7 +10,7 @@ Welcome to Webcamoid wiki!
 * [Raw build and install](https://github.com/webcamoid/webcamoid/wiki/Raw-build-and-install)
 * [Deploy and create self contained binary packages](https://github.com/webcamoid/webcamoid/wiki/Deploy-and-create-self-contained-binary-packages)
 
-### GNU/Linux ###
+### GNU/Linux and FreeBSD ###
 
 * [Build and install in GNU Linux and FreeBSD](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-in-GNU-Linux-and-FreeBSD)
 * [Cross compile from GNU/Linux to Windows](https://github.com/webcamoid/webcamoid/wiki/Cross-compile-from-GNU-Linux-to-Windows)
