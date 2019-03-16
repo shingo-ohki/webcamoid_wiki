@@ -1,35 +1,12 @@
 This is a list of what is considered more or less high priority in the project, and things that are in progress right now. The numbers of features in each release are intended to comply with short (or shortest as possible) development cycles.
 
-## Webcamoid 8.6.0
-
-### Storing/Restoring device configs
-
-issue [#62](https://github.com/webcamoid/webcamoid/issues/62).
-
-**Done**
-
-### Packaging and source control improvements
-
-Add support for MSYS2.  
-Support CI for FreeBSD.  
-Add static code analysis.  
-Daily builds.  
-
-**Done**
-
-### Improve GStreamer support
-
-Until now GStreamer was used as an alternative codec framework to FFmpeg, in case FFmpeg was not available in the target system. To provide an acceptable quality of formats and codecs, only those GStreamer plugins marked as GST_RANK_PRIMARY was enabled by default. The result of the that is the big lack of common formats and codecs. The rank must be lowered and formats and codecs must be tested thoroughly to fix issues and ensure a good quality result.
-
-**Done**
-
 ## Webcamoid 9.0.0
 
 The much expected platform limits breaking release.
 
 ### Android port
 
-Make Webcamoid work in Android. It must be available in F-Droid (free) and Play Store (donation pay).
+Make Webcamoid work in Android. It must be available in F-Droid (free) and Play Store (donation pay, and free + ads).
 
 ### New GUI
 
