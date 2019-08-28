@@ -71,6 +71,7 @@ Following compatibility table is based on tests made in development branch (futu
         <tr><td>Google Chrome Adobe Flash Player</td><td>:heart:</td><td>Flash not working</td></tr>
         <tr><td>Google Chrome HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>ManyCam</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Opera HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Photo Booth</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Safari</td><td>:heart:</td><td>Nothing works</td></tr>
     </tbody>
@@ -110,6 +111,7 @@ Following compatibility table is based on tests made in development branch (futu
         <tr><td>ManyCam</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Microsoft Edge</td><td>:heart:</td><td>UWP apps does not supports DirectShow filters</td></tr>
         <tr><td>Open Broadcaster Software (OBS)</td><td>:green_heart:</td><td></td></tr>
+        <tr><td>Opera HTML5</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Pidgin</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Skype for Desktop</td><td>:green_heart:</td><td></td></tr>
         <tr><td>Skype UWP</td><td>:heart:</td><td>UWP apps does not supports DirectShow filters</td></tr>
