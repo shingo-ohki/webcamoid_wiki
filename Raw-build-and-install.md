@@ -26,6 +26,7 @@ The following are operating system targeting dependencies.
 * [OpenJDK](https://openjdk.java.net/) == 8
 * [Android SDK](https://developer.android.com/studio) (Command line tools)
 * [Android NDK](https://developer.android.com/ndk/downloads) >= r19c
+* Android platform >= 23
 
 You need at least one library for each category.
 
