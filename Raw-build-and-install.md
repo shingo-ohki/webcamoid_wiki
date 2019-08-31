@@ -21,6 +21,12 @@ The following are operating system targeting dependencies.
 * [Mingw-w64](http://mingw-w64.org/doku.php) >= 4.9.2
 * [Build Tools for Visual Studio](https://www.visualstudio.com/downloads) >= 2015
 
+**Android**
+
+* [OpenJDK](https://openjdk.java.net/) == 8
+* [Android SDK](https://developer.android.com/studio) (Command line tools)
+* [Android NDK](https://developer.android.com/ndk/downloads) >= r19c
+
 You need at least one library for each category.
 
 **Codec frameworks**
@@ -33,7 +39,6 @@ You need at least one library for each category.
 * [libpulse](http://www.freedesktop.org/wiki/Software/PulseAudio) (*recommended*)
 * [ALSA](http://www.alsa-project.org/main/index.php/Main_Page)
 * [JACK Audio Connection Kit](http://www.jackaudio.org/)
-* [QtMultimedia](http://doc.qt.io/qt-5/qtmultimedia-index.html)
 
 **Video capture**
 
