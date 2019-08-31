@@ -14,6 +14,7 @@ Welcome to Webcamoid wiki!
 
 * [Build and install in GNU Linux and FreeBSD](https://github.com/webcamoid/webcamoid/wiki/Build-and-install-in-GNU-Linux-and-FreeBSD)
 * [Cross compile from GNU/Linux to Windows](https://github.com/webcamoid/webcamoid/wiki/Cross-compile-from-GNU-Linux-to-Windows)
+* [Cross compile from GNU/Linux to Android](https://github.com/webcamoid/webcamoid/wiki/Cross-compile-from-GNU-Linux-to-Android)
 
 ### Mac ###
 
