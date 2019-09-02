@@ -23,7 +23,7 @@ You can put FFmpeg packages outside of Webcamoid folder if you want, but remembe
 
 ## Configuring Qt Creator ##
 
-1. Open Qt Creator and go to menu _Tools > Options > Build & Run_.
+1. Open Qt Creator and go to menu _Tools > Options > Kits_.
 2. In **Qt Versions**, Press **Add** and select _/usr/i686-w64-mingw32/lib/qt/bin/qmake_ and _/usr/x86_64-w64-mingw32/lib/qt/bin/qmake_, and in **Version name** put **Qt %{Qt:Version} in PATH (lib, MinGW i686)** and **Qt %{Qt:Version} in PATH (lib, MinGW x86_64)** respectively.
 3. In **Compilers**,  Press **Add MinGW** and select 
 
