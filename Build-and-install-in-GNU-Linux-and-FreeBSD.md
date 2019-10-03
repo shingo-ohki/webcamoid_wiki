@@ -5,10 +5,10 @@ Installing dependencies
 
 Dependencies for software development in GNU/Linux can be really hard to manage and keep updated, specially because there is no a standard way of installing a package. So to keep in sync with project development, this guide will just provide you a link to where you can find the dependencies required to build Webcamoid:
 
-- **Arch**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L182)  
-- **Debian/Ubuntu**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L287)  
-- **Fedora**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L353)  
-- **OpenSUSE**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L378)  
+- **Arch**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L245)  
+- **Debian/Ubuntu**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L368) and [this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L411)  
+- **Fedora**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L432)  
+- **OpenSUSE**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/travis/install_deps.sh#L456)  
 - **FreeBSD**: [check this](https://github.com/webcamoid/webcamoid/blob/master/ports/ci/cirrus/install_deps.sh#L22)
 
 Build from Qt Creator
