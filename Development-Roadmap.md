@@ -6,11 +6,11 @@ The much expected platform limits breaking release.
 
 ### Android port
 
-Make Webcamoid work in Android. It must be available in F-Droid (free) and Play Store (donation pay, and free + ads).
+Make Webcamoid work in Android. It must be available in F-Droid (free) and Play Store (donation pay, and free + ads). [Ongoing](https://github.com/webcamoid/webcamoid/issues/169)
 
 ### New GUI
 
-Current GUI doesn't play well with mobile and small screens at all and it's outdated anyways. This is a big requirement for Android port.
+Current GUI doesn't play well with mobile and small screens at all and it's outdated anyways. This is a big requirement for Android port. [Ongoing](https://github.com/webcamoid/webcamoid/issues/216)
 
 ### Add a new control area on top of frame
 
