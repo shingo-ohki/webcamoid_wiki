@@ -32,7 +32,7 @@ You need at least one library for each category.
 
 **Codec frameworks**
 
-* [FFmpeg](http://ffmpeg.org/) >= 2.8 (*recommended*)
+* [FFmpeg](http://ffmpeg.org/) >= 3.4 (*recommended*)
 * [GStreamer](http://gstreamer.freedesktop.org/) >= 1.6
 
 **Audio playback**
