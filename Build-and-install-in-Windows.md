@@ -31,7 +31,7 @@ FFMPEGINCLUDES=C:\[path]\ffmpeg\include FFMPEGLIBS=-LC:\[path]\ffmpeg\lib FFMPEG
 8. In **Build & Run > Run > Command line argumments** add:
   
 ```
---vcam C:\[path]\webcamoid\libAvKys\Plugins\VirtualCamera\src\dshow\VirtualCamera -r -p C:\[path]\webcamoid\libAvKys\Plugins -q C:\[path]\webcamoid\libAvKys
+-r -p C:\[path]\webcamoid\libAvKys\Plugins --vcam C:\[path]\webcamoid\libAvKys\Plugins\VirtualCamera\src\dshow\VirtualCamera
 ```
    
    **Note**: If you enabled **Shadow build** replace _C:\[path]\webcamoid_ with the shadow build folder.  
