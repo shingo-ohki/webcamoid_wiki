@@ -28,7 +28,7 @@ Build from Qt Creator
 13. In **Build & Run > Run > Command line arguments** add:
   
 ```
---vcam /[path]/webcamoid/libAvKys/Plugins/VirtualCamera/src/cmio/VirtualCamera -r -p /[path]/webcamoid/libAvKys/Plugins -q /[path]/webcamoid/libAvKys
+-r -p /[path]/webcamoid/libAvKys/Plugins --vcam /[path]/webcamoid/libAvKys/Plugins/VirtualCamera/src/cmio/VirtualCamera
 ```
    
    **Note**: Replace _/[path]_ with the folder where is Webcamoid source code.  
