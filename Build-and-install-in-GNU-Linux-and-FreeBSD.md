@@ -27,7 +27,7 @@ Build from Qt Creator
 5. In **Build & Run > Run > Command line argumments** add:
   
 ```
--r -p /[path]/webcamoid/libAvKys/Plugins -q /[path]/webcamoid/libAvKys
+-r -p /[path]/webcamoid/libAvKys/Plugins --vcam /[path]/akvcam/src
 ```
    
    **Note**: If you enabled **Shadow build** replace _/[path]/webcamoid_ with the shadow build folder.  
