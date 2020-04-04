@@ -23,12 +23,12 @@ FFMPEGINCLUDES=C:\[path]\ffmpeg\include FFMPEGLIBS=-LC:\[path]\ffmpeg\lib FFMPEG
 6. This step is optional but may be useful.  
     6.a) You can enable **Shadow build** to put all compiled and generated files in a different folder and leave source directory clean. In the **Build directory** write for example _C:\[path]\webcamoid-shadow_ to put compiled files there.  
     6.b) In **Additional arguments** you can add **CONFIG+=silent** to reduce compile verbosity, and make compile errors easier to notice.
-    6.c) In **Build Steps > Make > Make argumments** add **-j[number of supported CPU threads]** to speed up build, for example **-j4**.  
+    6.c) In **Build Steps > Make > Make arguments** add **-j[number of supported CPU threads]** to speed up build, for example **-j4**.  
 7. This step is also optional but let you create the installer and portable packages. Enabling deploy scripts may slow down the build a lot, so you are advised to disable this if you are just debugging.  
     7.a) In **Build Steps > Add Build Step > Custom Process Step**, in **Command** add the path to **Python** interpreter, for example _C:\Program Files\Python\pythonw.exe_.  
     7.b) In **Argumments** add _C:\[path]\webcamoid\ports\deploy\deploy.py_.  
     7.c) You can disable this step checking the 🛇 icon near to **Details**.  
-8. In **Build & Run > Run > Command line argumments** add:
+8. In **Build & Run > Run > Command line arguments** add:
   
 ```
 -r -p C:\[path]\webcamoid\libAvKys\Plugins --vcam C:\[path]\webcamoid\libAvKys\Plugins\VirtualCamera\src\dshow\VirtualCamera
