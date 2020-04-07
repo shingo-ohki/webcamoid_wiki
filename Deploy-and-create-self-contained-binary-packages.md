@@ -46,6 +46,7 @@ Following environment variables are supported:
 - **PATH**: List of colon or semi-colon (Windows) separated list of paths to search for binaries. System wide environment variable.
 - **QMAKE_PATH**: Path to Qmake executable.
 - **BINARYCREATOR**: Path to Qt Installer framework's binarycreator executable.
+- **BUILD_PATH**: If you have enabled shadow build, use this variable to indicate where is located the binary folder.
 
 ### POSIX ###
 
