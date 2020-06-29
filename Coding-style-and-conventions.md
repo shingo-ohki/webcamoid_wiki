@@ -323,7 +323,7 @@ MyClass::MyClass(int a, int b, int c):
 
 ### Blocks of code, loops and conditionals
 
-A block of code is code belonging to a loop, conditional or any code surrounded by curly braces and defined in multiple lines, for example a 'for' or 'while' loop, an if-else if-else, etc..
+A block of code is code belonging to a loop, conditional or any code surrounded by curly braces and defined in multiple lines, for example a **for** or **while** loop, **if-else**, **switch**, etc..
 
 - Always write a new line before and after a code block. Breaking this rule is unforgivable!
 
